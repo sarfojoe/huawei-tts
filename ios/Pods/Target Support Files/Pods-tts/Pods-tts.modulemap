@@ -1,0 +1,6 @@
+module Pods_tts {
+  umbrella header "Pods-tts-umbrella.h"
+
+  export *
+  module * { export * }
+}

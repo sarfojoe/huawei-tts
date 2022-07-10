@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ml_pvs_load_error" priority="translator">"ໂຫຼດ​ບໍ່​ສຳ​ເລັດ"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"ບໍ່​ມີ​ການ​ເຊື່ອມ​ຕໍ່​ອິນ​ເຕີ​ເນັດ"</string>
+    <string name="ml_pvs_net_set" priority="translator">"ການຕັ້ງຄ່າເຄືອຂ່າຍ"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"ບໍ່​ໄດ້​ໃຫ້​ການ​ອະ​ນຸ​ຍາດ​ບ່ອນ​ເກັບ​ຂໍ້​ມູນ ຫຼື ກ້ອງ​ຖ່າຍ​ຮູບ."</string>
+    <string name="ml_pvs_service_error" priority="translator">"ບໍ່​ສາ​ມາດເຊື່ອມ​ຕໍ່​ກັບ​ເຊີບ​ເວີໄດ້"</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ml_pvs_load_error" priority="translator">"Жүктеу сәтсіз болды"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"Интернет байланысы жоқ"</string>
+    <string name="ml_pvs_net_set" priority="translator">"Желі параметрлері"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"«Қойма» немесе «Камера» рұқсаты берілмеген."</string>
+    <string name="ml_pvs_service_error" priority="translator">"Серверге қосылу мүмкін емес"</string>
+</resources>

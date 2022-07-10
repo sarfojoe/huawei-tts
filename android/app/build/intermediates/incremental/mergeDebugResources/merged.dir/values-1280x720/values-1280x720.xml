@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mlkit_asr_background_corner">14dp</dimen>
+    <dimen name="mlkit_asr_dialog_height">200dp</dimen>
+    <dimen name="mlkit_asr_logo_height">45dp</dimen>
+    <dimen name="mlkit_asr_text_height">65dp</dimen>
+    <dimen name="mlkit_asr_text_margin_top">25dp</dimen>
+    <dimen name="mlkit_asr_text_size">15sp</dimen>
+    <dimen name="mlkit_asr_wave_view_height">60dp</dimen>
+</resources>

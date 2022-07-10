@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\sarfo\\huawei-tts\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-1280x720\\values-1280x720.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sarfo\\.gradle\\caches\\transforms-3\\b5444f953f70d10e8a01e147ec23fe43\\transformed\\jetified-ml-computer-voice-asr-plugin-2.0.5.300\\res\\values-1280x720\\values-1280x720.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,170,223,276,333,384",
+                        "endColumns": "58,55,52,52,56,50,57",
+                        "endOffsets": "109,165,218,271,328,379,437"
+                    }
+                }
+            ]
+        }
+    ]
+}

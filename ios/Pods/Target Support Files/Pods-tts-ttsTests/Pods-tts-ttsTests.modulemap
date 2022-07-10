@@ -1,0 +1,6 @@
+module Pods_tts_ttsTests {
+  umbrella header "Pods-tts-ttsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

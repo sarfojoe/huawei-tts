@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\sarfo\\huawei-tts\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km-rKH\\values-km-rKH.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\sarfo\\.gradle\\caches\\transforms-3\\b197cd0cd37243653d916943b3036dc8\\transformed\\jetified-ml-product-visual-search-plugin-2.0.3.300\\res\\values-km-rKH\\values-km-rKH.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,148,252,334,457",
+                        "endColumns": "92,103,81,122,101",
+                        "endOffsets": "143,247,329,452,554"
+                    }
+                }
+            ]
+        }
+    ]
+}

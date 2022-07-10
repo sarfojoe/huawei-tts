@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="state_listening">
+        <item priority="translator">"Ngrungokake…"</item>
+    </string-array>
+    <string-array name="state_nonetwork">
+        <item priority="translator">"Ora ana sambungan internet"</item>
+        <item priority="translator">"Sambungan Internet ala"</item>
+        <item priority="translator">"Priksa jaringan sampeyan"</item>
+        <item priority="translator">"Priksa setelan jaringan sampeyan"</item>
+    </string-array>
+    <string-array name="state_nosound">
+        <item priority="translator">"Omonga apa wae"</item>
+        <item priority="translator">"Aku ora pati krungu. Cobanen maneh."</item>
+        <item priority="translator">"Rada nyedhaka lan coba maneh"</item>
+        <item priority="translator">"Omonga menyang mik"</item>
+    </string-array>
+    <string-array name="state_nounderstand">
+        <item priority="translator">"Nyuwun ngapunten, aku rada ora mudheng"</item>
+        <item priority="translator">"Nyuwun ngapunten, aku ora pati krungu"</item>
+        <item priority="translator">"Aku rada ora pati krungu"</item>
+        <item priority="translator">"Nyuwun ngapunten, aku ora mudheng"</item>
+    </string-array>
+    <string-array name="state_service_unavailable">
+        <item priority="translator">"Layanan ora sumadhiya"</item>
+    </string-array>
+    <plurals name="mlkit_bcr_image_piece">
+        <item priority="translator" quantity="other">"%d"</item>
+    </plurals>
+    <string name="hms_abort" priority="translator">"Endheg"</string>
+    <string name="hms_abort_message" priority="translator">"Endheg undhuhan?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s ora bisa nggunakake HMS Core. Luncurake Pangoptimal (Atur Ponsel) utawa bukak Setelan kanggo ngaktifake kabeh izin kanggo %2$s (kalebu luncurake otomatis lan paluncuran kaloro), banjur coba maneh."</string>
+    <string name="hms_cancel" priority="translator">"Wurung"</string>
+    <string name="hms_check_failure" priority="translator">"Gagal mriksa panganyaran."</string>
+    <string name="hms_checking" priority="translator">"Mriksa panganyaran..."</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Gagal ngundhuh paket HMS Core."</string>
+    <string name="hms_download_no_space" priority="translator">"Spasi bebas ora cukup. Undhuhan ora bisa rampung."</string>
+    <string name="hms_download_retry" priority="translator">"Undhuh gagal. Coba maneh?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Ngundhuh"</string>
+    <string name="hms_install" priority="translator">"Instal"</string>
+    <string name="hms_install_message" priority="translator">"HMS Core kudu diinstal nggo nggunakake fitur iki. Instal?"</string>
+    <string name="hms_retry" priority="translator">"Coba maneh"</string>
+    <string name="hms_update" priority="translator">"Anyarake"</string>
+    <string name="hms_update_continue" priority="LT">"Undhuh"</string>
+    <string name="hms_update_message" priority="translator">"Anyarake dadi HMS Core versi paling anyar kanggo nggunakake fitur iki. Anyarake saiki?"</string>
+    <string name="hms_update_message_new" priority="LT">"Layanan iki mbutuhake versi paling anyar apl ing ngisor iki.\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Ora ana sambungan Wi-Fi. Undhuh nggunakake data seluler?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="ml_pvs_load_error" priority="translator">"Gagal ngamot"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"Ora ana sambungan Internet"</string>
+    <string name="ml_pvs_net_set" priority="translator">"Setelan jaringan"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"Izin Simpenan utawa Kamera ora diwenehake."</string>
+    <string name="ml_pvs_service_error" priority="translator">"Ora bisa nyambung menyang server"</string>
+    <string name="mlkit_asr_machine_learning_kit" priority="translator">"Didayani dening ML Kit"</string>
+    <string name="mlkit_bcr_all_media" priority="translator">"Kabeh foto"</string>
+    <string name="mlkit_bcr_card_back_tips" priority="translator">"Lempengake sisih sakwalike kertu karo bingkai"</string>
+    <string name="mlkit_bcr_card_front_tips" priority="translator">"Lempengake sisih ngarep kertu karo bingkai"</string>
+    <string name="mlkit_bcr_permission_tip" priority="translator">"Ora diidini ngakses simpenan utawa kamera."</string>
+    <string name="mlkit_bcr_scan_failure" priority="translator">"Ora bisa maca konten kertu."</string>
+    <string name="mlkit_bcr_scanner_image" priority="translator">"Mindai…"</string>
+    <string name="mlkit_bcr_take_photo" priority="translator">"Jupuk foto"</string>
+    <string name="mlkit_bcr_tap_continue" priority="translator">"Dumuk kanggo nerusake mindai"</string>
+    <string name="mlkit_bcr_this_month" priority="translator">"Sasi iki"</string>
+    <string name="mlkit_bcr_this_week" priority="translator">"Minggu iki"</string>
+    <string name="mlkit_bcr_today" priority="translator">"Dina iki"</string>
+    <string name="mlkit_bcr_turn_on_light" priority="translator">"Dumuk kanggo cahya sing luwih akeh"</string>
+    <string name="mlkit_liveness_detect_backIcon" priority="translator">"Mbalik"</string>
+    <string name="mlkit_liveness_detect_dialogtips" priority="translator">"Fitur iki ora sumadhiya ing mode layar misah. Alihna dadi layar wutuh."</string>
+    <string name="mlkit_liveness_detect_dialogtipsnext" priority="translator">"OK"</string>
+    <string name="mlkit_liveness_detect_identifying" priority="translator">"Ngenali…"</string>
+    <string name="mlkit_liveness_detect_name" priority="LT">Deteksi rai</string>
+    <string name="mlkit_liveness_detect_noface_is_detected" priority="translator">"Rai ora kadeteksi"</string>
+    <string name="mlkit_liveness_detect_tips" priority="translator">Penerake posisi rai sajrone bingkai. Pesthekake sampeyan ana ing lingkungan sing padhang.</string>
+    <string name="upsdk_app_dl_installing" priority="LT">"Ngundhuh AppGallery"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Instal"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Ngundhuh %s…"</string>
+    <string name="upsdk_app_size" priority="translator">"Ukrn"</string>
+    <string name="upsdk_app_version" priority="translator">"Vers"</string>
+    <string name="upsdk_appstore_install" priority="translator">"%s dibutuhake kanggo nganyarake apl iki. Instal saiki?"</string>
+    <string name="upsdk_cancel" priority="translator">"Wurung"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Mriksa panganyaran..."</string>
+    <string name="upsdk_choice_update" priority="LT">"Panganyaran sumadhiya. Undhuh &amp; instal versi anyar."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"Ora bisa nyambung menyang server. Coba maneh mengko."</string>
+    <string name="upsdk_detail" priority="translator">"Rincian"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Ora bisa njupuk maneh info. Coba maneh mengko."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Raana samb internet. Priksa setelan jaringan."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"Apl"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Mengko"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Metu"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Anyarake"</string>
+    <string name="upsdk_ota_title" priority="translator">"Versi anyar"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Wurung inst?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Instalasi gagal."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Ya"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"Versi sampeyan wis paling anyar."</string>
+</resources>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ttstestsarfojoe.huawei"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <meta-data
+        android:name="com.huawei.hms.client.service.name:ml-computer-translate-model"
+        android:value="ml-computer-translate-model:2.0.5.300" />
+
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+
+    <application
+        android:name="ttstestsarfojoe.huawei.MainApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="ttstestsarfojoe.huawei.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_ocr"
+            android:value="3" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_label"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_object"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_imgseg"
+            android:value="4" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-product-visual-search-plugin"
+            android:value="ml-product-visual-search-plugin:2.0.3.300" />
+
+        <activity
+            android:name="com.huawei.hms.mlplugin.productvisionsearch.activity.TakePhotoActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|smallestScreenSize|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.huawei.hms.mlplugin.productvisionsearch.activity.LoadingDialogActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/MLPvsDialogActivityTheme" />
+
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_face"
+            android:value="5" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision"
+            android:value="ml-computer-vision:2.0.5.300" />
+
+        <activity
+            android:name="com.huawei.hms.mlplugin.card.bcr.CaptureActivity"
+            android:resizeableActivity="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-card-bcr-plugin"
+            android:value="ml-computer-card-bcr-plugin:2.0.3.301" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_bcr"
+            android:value="3" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_translate"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:mlkittranslate"
+            android:value="ml-translate:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_langdetect"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:mlkitlanguagedetect"
+            android:value="ml-languagedetect:2.0.5.300" />
+
+        <activity
+            android:name="com.huawei.hms.mlplugin.asr.MLAsrCaptureActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|keyboardHidden|orientation"
+            android:exported="false"
+            android:theme="@style/mlkitAsrCaptureActivityTheme" />
+
+        <meta-data
+            android:name="com.huawei.hms:ml-computer-voice-asr-plugin"
+            android:value="ml-computer-voice-asr-plugin:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms:ml-computer-voice-asr-sdk"
+            android:value="ml-computer-voice-asr-sdk:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-voice-tts:huawei_module_mlkit_tts_bee"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-voice-tts:huawei_module_mlkit_tts_eagle"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-voice-tts"
+            android:value="ml-computer-voice-tts:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-voice-aft"
+            android:value="ml-computer-voice:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-voice-realtimetranscription"
+            android:value="ml-computer-voice-realtimetranscription:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:ml_computer_vision_formrecognition"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-formrecognition"
+            android:value="ml-computer-vision-formrecognition:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.kit.min_api_level:ml-speech-semantics:huawei_module_mlkit_sounddect"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-speech-semantics-sounddect-sdk"
+            android:value="ml-speech-semantics-sounddect-sdk:2.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_imagesuperresolution"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-imagesuperresolution"
+            android:value="ml-computer-vision-imagesuperresolution:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_dsc"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-documentskew"
+            android:value="ml-computer-vision-documentskew:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision-textimagesuperresolution:huawei_module_mlkit_tisr"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-textimagesuperresolution"
+            android:value="ml-computer-vision-textimagesuperresolution:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision-scenedetection:huawei_module_mlkit_scenedetection"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-scenedetection"
+            android:value="ml-computer-vision-scenedetection:2.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.kit.min_api_level:ml-computer-vision:huawei_module_mlkit_skeleton"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-skeleton"
+            android:value="ml-computer-vision-skeleton:2.0.4.300" />
+
+        <activity
+            android:name="com.huawei.hms.mlsdk.livenessdetection.ui.LivenessDetectActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+
+        <meta-data
+            android:name="com.huawei.hms.kit.min_api_level:ml-computer-vision:huawei_module_mlkit_livenessdetection"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_handkeypoint"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-handkeypoint"
+            android:value="ml-computer-vision-handkeypoint:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-base"
+            android:value="ml-computer-vision-base:2.0.5.300" />
+
+        <provider
+            android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"
+            android:authorities="ttstestsarfojoe.huawei.MLInitializerProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-model-executor"
+            android:value="ml-computer-model-executor:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-model-download"
+            android:value="ml-computer-model-download:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-language-detection-model"
+            android:value="ml-computer-language-detection-model:2.0.5.300" />
+
+        <activity android:name="com.huawei.hms.mlplugin.card.gcr.CaptureActivity" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-nlp-textembedding"
+            android:value="ml-nlp-textembedding:1.0.2.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:5.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-speech-semantics-sounddect-model"
+            android:value="ml-speech-semantics-sounddect-model:2.0.2.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-dynamic"
+            android:value="ml-computer-dynamic:2.0.5.300" />
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes" />
+
+        <provider
+            android:name="com.huawei.hms.update.provider.UpdateProvider"
+            android:authorities="ttstestsarfojoe.huawei.hms.update.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:authorities="ttstestsarfojoe.huawei.AGCInitializeProvider"
+            android:exported="false" />
+
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-latin-model"
+            android:value="ml-computer-vision-ocr-latin-model:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-jk-model"
+            android:value="ml-computer-vision-ocr-jk-model:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-cn-model"
+            android:value="ml-computer-vision-ocr-cn-model:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-formrecognition-model"
+            android:value="ml-computer-vision-formrecognition-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-voice-tts-model-bee"
+            android:value="ml-computer-voice-tts-model-bee:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-voice-tts-model-eagle"
+            android:value="ml-computer-voice-tts-model-eagle:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-classification-model"
+            android:value="ml-computer-vision-image-classification-model:2.0.1.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-object-detection-model"
+            android:value="ml-computer-vision-object-detection-model:2.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-segmentation-multiclass-model"
+            android:value="ml-computer-vision-image-segmentation-multiclass-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-segmentation-body-model"
+            android:value="ml-computer-vision-image-segmentation-body-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-imagesuperresolution-model"
+            android:value="ml-computer-vision-imagesuperresolution-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-documentskewcorrection"
+            android:value="ml-computer-documentskewcorrection:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-textimagesuperresolution-model"
+            android:value="ml-computer-vision-textimagesuperresolution-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-scenedetection-model"
+            android:value="ml-computer-vision-scenedetection-model:2.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-shape"
+            android:value="ml-computer-vision-face-recognition-shape:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-model"
+            android:value="ml-computer-vision-face-recognition-model:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-emotion"
+            android:value="ml-computer-vision-face-recognition-emotion:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-feature"
+            android:value="ml-computer-vision-face-recognition-feature:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-face3d"
+            android:value="ml-computer-vision-face-recognition-face3d:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-skeleton-model"
+            android:value="ml-computer-vision-skeleton-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-yoga-model"
+            android:value="ml-computer-vision-yoga-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-handKeypoint-model"
+            android:value="ml-computer-vision-handKeypoint-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-net"
+            android:value="ml-computer-net:2.0.5.300" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-base"
+            android:value="ml-computer-vision-ocr-base:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-inner"
+            android:value="ml-computer-vision-inner:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-segmentation-base"
+            android:value="ml-computer-vision-image-segmentation-base:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-base"
+            android:value="ml-computer-vision-face-recognition-base:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-skeleton-base"
+            android:value="ml-computer-vision-skeleton-model:2.0.4.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-vision-livenessdetection-model"
+            android:value="ml-computer-vision-livenessdetection-model:2.0.5.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-card-bcr-model"
+            android:value="ml-computer-card-bcr-model:2.0.3.301" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:dynamic-api"
+            android:value="dynamic-api:1.0.13.303" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+            android:value="2" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-camera-inner"
+            android:value="ml-computer-camera-inner:2.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner"
+            android:value="ml-computer-ha-inner:2.0.5.300" />
+
+        <activity
+            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+
+        <provider
+            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+            android:authorities="ttstestsarfojoe.huawei.updateSdk.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+        <activity
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=106644195" />
+    </application>
+
+</manifest>

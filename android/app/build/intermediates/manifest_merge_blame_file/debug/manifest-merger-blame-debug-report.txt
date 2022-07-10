@@ -1,0 +1,825 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ttstestsarfojoe.huawei"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\sarfo\huawei-tts\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\sarfo\huawei-tts\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:6:5-65
+14-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:4:5-67
+15-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:8:5-81
+16-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:9:5-80
+17-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:9:22-77
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:10:5-71
+18-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:10:22-68
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:11:5-76
+19-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:11:22-73
+20
+21    <uses-feature android:name="android.hardware.camera" />
+21-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:11:5-60
+21-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:11:19-57
+22    <uses-feature android:name="android.hardware.camera.autofocus" />
+22-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:13:5-70
+22-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:13:19-67
+23
+24    <meta-data
+24-->[com.huawei.hms:ml-computer-translate-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c9f2a012db51959ac0aecafbad240d4\transformed\jetified-ml-computer-translate-model-2.0.5.300\AndroidManifest.xml:11:5-13:65
+25        android:name="com.huawei.hms.client.service.name:ml-computer-translate-model"
+25-->[com.huawei.hms:ml-computer-translate-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c9f2a012db51959ac0aecafbad240d4\transformed\jetified-ml-computer-translate-model-2.0.5.300\AndroidManifest.xml:12:9-86
+26        android:value="ml-computer-translate-model:2.0.5.300" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+26-->[com.huawei.hms:ml-computer-translate-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c9f2a012db51959ac0aecafbad240d4\transformed\jetified-ml-computer-translate-model-2.0.5.300\AndroidManifest.xml:13:9-62
+27    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+27-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:16:5-83
+27-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:16:22-80
+28    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+28-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:18:5-106
+28-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:18:22-103
+29
+30    <application
+30-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:13:5-32:19
+31        android:name="ttstestsarfojoe.huawei.MainApplication"
+31-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:14:7-38
+32        android:allowBackup="false"
+32-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:18:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.5.0] C:\Users\sarfo\.gradle\caches\transforms-3\8eb0b4ce745921758bae648af177478e\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:16:7-41
+36        android:label="@string/app_name"
+36-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:15:7-39
+37        android:networkSecurityConfig="@xml/network_security_config"
+37-->[com.huawei.hms:ml-computer-vision-cloud:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\195cd4378069e78cc51140c028fa3d25\transformed\jetified-ml-computer-vision-cloud-2.0.5.300\AndroidManifest.xml:11:18-78
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:17:7-52
+39        android:theme="@style/AppTheme"
+39-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:19:7-38
+40        android:usesCleartextTraffic="true" >
+40-->C:\Users\sarfo\huawei-tts\android\app\src\debug\AndroidManifest.xml:8:9-44
+41        <activity
+41-->C:\Users\sarfo\huawei-tts\android\app\src\debug\AndroidManifest.xml:11:9-111
+42            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+42-->C:\Users\sarfo\huawei-tts\android\app\src\debug\AndroidManifest.xml:11:19-83
+43            android:exported="false" />
+43-->C:\Users\sarfo\huawei-tts\android\app\src\debug\AndroidManifest.xml:11:84-108
+44        <activity
+44-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:20:7-31:18
+45            android:name="ttstestsarfojoe.huawei.MainActivity"
+45-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:21:9-37
+46            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+46-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:23:9-118
+47            android:exported="true"
+47-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:26:9-32
+48            android:label="@string/app_name"
+48-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:22:9-41
+49            android:launchMode="singleTask"
+49-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:24:9-40
+50            android:windowSoftInputMode="adjustResize" >
+50-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:25:9-51
+51            <intent-filter>
+51-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:27:9-30:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:28:13-65
+52-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:28:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:29:13-73
+54-->C:\Users\sarfo\huawei-tts\android\app\src\main\AndroidManifest.xml:29:23-70
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             ocr        1:  1.0.0.300
+59                       2:  1.0.4.300 首帧延迟
+60                      3： 2.0.0.300 算法更新
+61        -->
+62        <meta-data
+62-->[com.huawei.hms:ml-computer-vision-ocr:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\fd7292171d0bea83e6096b6f36717c98\transformed\jetified-ml-computer-vision-ocr-2.0.5.300\AndroidManifest.xml:19:9-22:36
+63            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_ocr"
+63-->[com.huawei.hms:ml-computer-vision-ocr:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\fd7292171d0bea83e6096b6f36717c98\transformed\jetified-ml-computer-vision-ocr-2.0.5.300\AndroidManifest.xml:20:13-99
+64            android:value="3" />
+64-->[com.huawei.hms:ml-computer-vision-ocr:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\fd7292171d0bea83e6096b6f36717c98\transformed\jetified-ml-computer-vision-ocr-2.0.5.300\AndroidManifest.xml:21:13-30
+65        <!--
+66             label      1:  1.0.0.300
+67                       2:  1.0.4.300 首帧延迟
+68        -->
+69        <meta-data
+69-->[com.huawei.hms:ml-computer-vision-classification:2.0.1.300] C:\Users\sarfo\.gradle\caches\transforms-3\431d0e48e45bd4db73d16c235a773108\transformed\jetified-ml-computer-vision-classification-2.0.1.300\AndroidManifest.xml:18:9-21:36
+70            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_label"
+70-->[com.huawei.hms:ml-computer-vision-classification:2.0.1.300] C:\Users\sarfo\.gradle\caches\transforms-3\431d0e48e45bd4db73d16c235a773108\transformed\jetified-ml-computer-vision-classification-2.0.1.300\AndroidManifest.xml:19:13-101
+71            android:value="2" />
+71-->[com.huawei.hms:ml-computer-vision-classification:2.0.1.300] C:\Users\sarfo\.gradle\caches\transforms-3\431d0e48e45bd4db73d16c235a773108\transformed\jetified-ml-computer-vision-classification-2.0.1.300\AndroidManifest.xml:20:13-30
+72        <!--
+73             object     1:  1.0.0.300
+74                       2:  1.0.4.300 首帧延迟
+75        -->
+76        <meta-data
+76-->[com.huawei.hms:ml-computer-vision-object:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\c54efd00629aa0812b6e751b947f5a8d\transformed\jetified-ml-computer-vision-object-2.0.3.300\AndroidManifest.xml:18:9-21:36
+77            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_object"
+77-->[com.huawei.hms:ml-computer-vision-object:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\c54efd00629aa0812b6e751b947f5a8d\transformed\jetified-ml-computer-vision-object-2.0.3.300\AndroidManifest.xml:19:13-102
+78            android:value="2" />
+78-->[com.huawei.hms:ml-computer-vision-object:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\c54efd00629aa0812b6e751b947f5a8d\transformed\jetified-ml-computer-vision-object-2.0.3.300\AndroidManifest.xml:20:13-30
+79        <!--
+80             imgseg      1： 1.0.2.300
+81                         2:  1.0.3.300
+82                         3:  1.0.4.300 首帧延迟
+83                         4:  1.0.4.301 算法更新
+84        -->
+85        <meta-data
+85-->[com.huawei.hms:ml-computer-vision-segmentation:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\4be9ef1b8cbaa81652325bbf46f78ae4\transformed\jetified-ml-computer-vision-segmentation-2.0.4.300\AndroidManifest.xml:19:9-21:33
+86            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_imgseg"
+86-->[com.huawei.hms:ml-computer-vision-segmentation:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\4be9ef1b8cbaa81652325bbf46f78ae4\transformed\jetified-ml-computer-vision-segmentation-2.0.4.300\AndroidManifest.xml:20:13-102
+87            android:value="4" />
+87-->[com.huawei.hms:ml-computer-vision-segmentation:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\4be9ef1b8cbaa81652325bbf46f78ae4\transformed\jetified-ml-computer-vision-segmentation-2.0.4.300\AndroidManifest.xml:21:13-30
+88        <meta-data
+88-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:14:9-16:73
+89            android:name="com.huawei.hms.client.service.name:ml-product-visual-search-plugin"
+89-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:15:13-94
+90            android:value="ml-product-visual-search-plugin:2.0.3.300" />
+90-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:16:13-70
+91
+92        <activity
+92-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:18:9-22:66
+93            android:name="com.huawei.hms.mlplugin.productvisionsearch.activity.TakePhotoActivity"
+93-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:19:13-98
+94            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|smallestScreenSize|screenSize"
+94-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:20:13-115
+95            android:screenOrientation="portrait"
+95-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:21:13-49
+96            android:theme="@style/Theme.AppCompat.NoActionBar" />
+96-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:22:13-63
+97        <activity
+97-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:23:9-26:63
+98            android:name="com.huawei.hms.mlplugin.productvisionsearch.activity.LoadingDialogActivity"
+98-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:24:13-102
+99            android:screenOrientation="behind"
+99-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:25:13-47
+100            android:theme="@style/MLPvsDialogActivityTheme" />
+100-->[com.huawei.hms:ml-product-visual-search-plugin:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\b197cd0cd37243653d916943b3036dc8\transformed\jetified-ml-product-visual-search-plugin-2.0.3.300\AndroidManifest.xml:26:13-60
+101        <!--
+102             face       1： 1.0.0.203
+103                        2:  1.0.3.300
+104                       3:  1.0.4.300   首帧延迟
+105                      4:  2.0.1.300      包大小和性能优化
+106                       5:  2.0.5.300  新增Face 3D版本,更新mindspore版本
+107        -->
+108        <meta-data
+108-->[com.huawei.hms:ml-computer-vision-face:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ffa07b61015d4c7ae8afdfe445bc916\transformed\jetified-ml-computer-vision-face-2.0.5.300\AndroidManifest.xml:21:9-24:36
+109            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_face"
+109-->[com.huawei.hms:ml-computer-vision-face:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ffa07b61015d4c7ae8afdfe445bc916\transformed\jetified-ml-computer-vision-face-2.0.5.300\AndroidManifest.xml:22:13-100
+110            android:value="5" />
+110-->[com.huawei.hms:ml-computer-vision-face:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ffa07b61015d4c7ae8afdfe445bc916\transformed\jetified-ml-computer-vision-face-2.0.5.300\AndroidManifest.xml:23:13-30
+111        <meta-data
+111-->[com.huawei.hms:ml-computer-vision-cloud:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\195cd4378069e78cc51140c028fa3d25\transformed\jetified-ml-computer-vision-cloud-2.0.5.300\AndroidManifest.xml:12:9-14:60
+112            android:name="com.huawei.hms.client.service.name:ml-computer-vision"
+112-->[com.huawei.hms:ml-computer-vision-cloud:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\195cd4378069e78cc51140c028fa3d25\transformed\jetified-ml-computer-vision-cloud-2.0.5.300\AndroidManifest.xml:13:13-81
+113            android:value="ml-computer-vision:2.0.5.300" />
+113-->[com.huawei.hms:ml-computer-vision-cloud:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\195cd4378069e78cc51140c028fa3d25\transformed\jetified-ml-computer-vision-cloud-2.0.5.300\AndroidManifest.xml:14:13-57
+114
+115        <activity
+115-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:16:9-19:72
+116            android:name="com.huawei.hms.mlplugin.card.bcr.CaptureActivity"
+116-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:17:13-76
+117            android:resizeableActivity="false"
+117-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:18:13-47
+118            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+118-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:19:13-69
+119
+120        <meta-data
+120-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:21:9-23:69
+121            android:name="com.huawei.hms.client.service.name:ml-computer-card-bcr-plugin"
+121-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:22:13-90
+122            android:value="ml-computer-card-bcr-plugin:2.0.3.301" />
+122-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:23:13-66
+123        <!--
+124             bcr         1:  1.0.2.300
+125                        2:  1.0.4.300 首帧延迟
+126        -->
+127        <meta-data
+127-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:28:9-31:36
+128            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_bcr"
+128-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:29:13-99
+129            android:value="3" />
+129-->[com.huawei.hms:ml-computer-card-bcr:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\ea8e2aa0923e9775078a20979a7eaf17\transformed\jetified-ml-computer-card-bcr-2.0.3.301\AndroidManifest.xml:30:13-30
+130        <meta-data
+130-->[com.huawei.hms:ml-computer-translate:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\7330fa950ab77f89ba6d1fead126f3a6\transformed\jetified-ml-computer-translate-2.0.5.300\AndroidManifest.xml:12:9-14:33
+131            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_translate"
+131-->[com.huawei.hms:ml-computer-translate:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\7330fa950ab77f89ba6d1fead126f3a6\transformed\jetified-ml-computer-translate-2.0.5.300\AndroidManifest.xml:13:13-105
+132            android:value="2" />
+132-->[com.huawei.hms:ml-computer-translate:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\7330fa950ab77f89ba6d1fead126f3a6\transformed\jetified-ml-computer-translate-2.0.5.300\AndroidManifest.xml:14:13-30
+133        <meta-data
+133-->[com.huawei.hms:ml-computer-translate:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\7330fa950ab77f89ba6d1fead126f3a6\transformed\jetified-ml-computer-translate-2.0.5.300\AndroidManifest.xml:15:9-17:54
+134            android:name="com.huawei.hms.client.service.name:mlkittranslate"
+134-->[com.huawei.hms:ml-computer-translate:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\7330fa950ab77f89ba6d1fead126f3a6\transformed\jetified-ml-computer-translate-2.0.5.300\AndroidManifest.xml:16:13-77
+135            android:value="ml-translate:2.0.5.300" />
+135-->[com.huawei.hms:ml-computer-translate:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\7330fa950ab77f89ba6d1fead126f3a6\transformed\jetified-ml-computer-translate-2.0.5.300\AndroidManifest.xml:17:13-51
+136        <meta-data
+136-->[com.huawei.hms:ml-computer-language-detection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6a06712d4bff649e12a97e3ee811881f\transformed\jetified-ml-computer-language-detection-2.0.5.300\AndroidManifest.xml:12:9-14:33
+137            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_langdetect"
+137-->[com.huawei.hms:ml-computer-language-detection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6a06712d4bff649e12a97e3ee811881f\transformed\jetified-ml-computer-language-detection-2.0.5.300\AndroidManifest.xml:13:13-106
+138            android:value="1" />
+138-->[com.huawei.hms:ml-computer-language-detection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6a06712d4bff649e12a97e3ee811881f\transformed\jetified-ml-computer-language-detection-2.0.5.300\AndroidManifest.xml:14:13-30
+139        <meta-data
+139-->[com.huawei.hms:ml-computer-language-detection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6a06712d4bff649e12a97e3ee811881f\transformed\jetified-ml-computer-language-detection-2.0.5.300\AndroidManifest.xml:15:9-17:59
+140            android:name="com.huawei.hms.client.service.name:mlkitlanguagedetect"
+140-->[com.huawei.hms:ml-computer-language-detection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6a06712d4bff649e12a97e3ee811881f\transformed\jetified-ml-computer-language-detection-2.0.5.300\AndroidManifest.xml:16:13-82
+141            android:value="ml-languagedetect:2.0.5.300" />
+141-->[com.huawei.hms:ml-computer-language-detection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6a06712d4bff649e12a97e3ee811881f\transformed\jetified-ml-computer-language-detection-2.0.5.300\AndroidManifest.xml:17:13-56
+142
+143        <activity
+143-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:13:9-18:20
+144            android:name="com.huawei.hms.mlplugin.asr.MLAsrCaptureActivity"
+144-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:14:13-76
+145            android:configChanges="screenSize|smallestScreenSize|screenLayout|keyboardHidden|orientation"
+145-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:15:13-106
+146            android:exported="false"
+146-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:16:13-37
+147            android:theme="@style/mlkitAsrCaptureActivityTheme" >
+147-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:17:13-64
+148        </activity>
+149
+150        <meta-data
+150-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:20:9-22:70
+151            android:name="com.huawei.hms:ml-computer-voice-asr-plugin"
+151-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:21:13-71
+152            android:value="ml-computer-voice-asr-plugin:2.0.5.300" />
+152-->[com.huawei.hms:ml-computer-voice-asr-plugin:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b5444f953f70d10e8a01e147ec23fe43\transformed\jetified-ml-computer-voice-asr-plugin-2.0.5.300\AndroidManifest.xml:22:13-67
+153        <meta-data
+153-->[com.huawei.hms:ml-computer-voice-asr:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\1e87dedf80aba59a0f607dcff280e0ce\transformed\jetified-ml-computer-voice-asr-2.0.5.300\AndroidManifest.xml:12:9-14:67
+154            android:name="com.huawei.hms:ml-computer-voice-asr-sdk"
+154-->[com.huawei.hms:ml-computer-voice-asr:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\1e87dedf80aba59a0f607dcff280e0ce\transformed\jetified-ml-computer-voice-asr-2.0.5.300\AndroidManifest.xml:13:13-68
+155            android:value="ml-computer-voice-asr-sdk:2.0.5.300" />
+155-->[com.huawei.hms:ml-computer-voice-asr:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\1e87dedf80aba59a0f607dcff280e0ce\transformed\jetified-ml-computer-voice-asr-2.0.5.300\AndroidManifest.xml:14:13-64
+156        <meta-data
+156-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:13:9-15:33
+157            android:name="com.huawei.hms.min_api_level:ml-computer-voice-tts:huawei_module_mlkit_tts_bee"
+157-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:14:13-106
+158            android:value="1" /> <!-- <meta-data -->
+158-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:15:13-30
+159        <!-- android:name="com.huawei.hms.min_api_level:ml-computer-voice-tts:huawei_module_mlkit_tts_bolt" -->
+160        <!-- android:value="1" /> -->
+161        <meta-data
+161-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:19:9-21:33
+162            android:name="com.huawei.hms.min_api_level:ml-computer-voice-tts:huawei_module_mlkit_tts_eagle"
+162-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:20:13-108
+163            android:value="1" />
+163-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:21:13-30
+164        <meta-data
+164-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:22:9-24:63
+165            android:name="com.huawei.hms.client.service.name:ml-computer-voice-tts"
+165-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:23:13-84
+166            android:value="ml-computer-voice-tts:2.0.5.300" />
+166-->[com.huawei.hms:ml-computer-voice-tts:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\33333c71cd04e897c289daa84f67c064\transformed\jetified-ml-computer-voice-tts-2.0.5.300\AndroidManifest.xml:24:13-60
+167        <meta-data
+167-->[com.huawei.hms:ml-computer-voice-aft:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\703b66a8aa595cc9686f463c699f2a3a\transformed\jetified-ml-computer-voice-aft-2.0.5.300\AndroidManifest.xml:12:9-14:59
+168            android:name="com.huawei.hms.client.service.name:ml-computer-voice-aft"
+168-->[com.huawei.hms:ml-computer-voice-aft:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\703b66a8aa595cc9686f463c699f2a3a\transformed\jetified-ml-computer-voice-aft-2.0.5.300\AndroidManifest.xml:13:13-84
+169            android:value="ml-computer-voice:2.0.5.300" />
+169-->[com.huawei.hms:ml-computer-voice-aft:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\703b66a8aa595cc9686f463c699f2a3a\transformed\jetified-ml-computer-voice-aft-2.0.5.300\AndroidManifest.xml:14:13-56
+170        <meta-data
+170-->[com.huawei.hms:ml-computer-voice-realtimetranscription:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\35535894e4f80e9dc02a94cfbe11771c\transformed\jetified-ml-computer-voice-realtimetranscription-2.0.5.300\AndroidManifest.xml:12:9-14:81
+171            android:name="com.huawei.hms.client.service.name:ml-computer-voice-realtimetranscription"
+171-->[com.huawei.hms:ml-computer-voice-realtimetranscription:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\35535894e4f80e9dc02a94cfbe11771c\transformed\jetified-ml-computer-voice-realtimetranscription-2.0.5.300\AndroidManifest.xml:13:13-102
+172            android:value="ml-computer-voice-realtimetranscription:2.0.5.300" />
+172-->[com.huawei.hms:ml-computer-voice-realtimetranscription:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\35535894e4f80e9dc02a94cfbe11771c\transformed\jetified-ml-computer-voice-realtimetranscription-2.0.5.300\AndroidManifest.xml:14:13-78
+173        <meta-data
+173-->[com.huawei.hms:ml-computer-vision-formrecognition:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ddcb40a771c6047e5c1a39ea860a874e\transformed\jetified-ml-computer-vision-formrecognition-2.0.4.300\AndroidManifest.xml:13:9-15:33
+174            android:name="com.huawei.hms.min_api_level:ml-computer-vision:ml_computer_vision_formrecognition"
+174-->[com.huawei.hms:ml-computer-vision-formrecognition:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ddcb40a771c6047e5c1a39ea860a874e\transformed\jetified-ml-computer-vision-formrecognition-2.0.4.300\AndroidManifest.xml:14:13-110
+175            android:value="1" />
+175-->[com.huawei.hms:ml-computer-vision-formrecognition:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ddcb40a771c6047e5c1a39ea860a874e\transformed\jetified-ml-computer-vision-formrecognition-2.0.4.300\AndroidManifest.xml:15:13-30
+176        <meta-data
+176-->[com.huawei.hms:ml-computer-vision-formrecognition:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ddcb40a771c6047e5c1a39ea860a874e\transformed\jetified-ml-computer-vision-formrecognition-2.0.4.300\AndroidManifest.xml:16:9-18:76
+177            android:name="com.huawei.hms.client.service.name:ml-computer-vision-formrecognition"
+177-->[com.huawei.hms:ml-computer-vision-formrecognition:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ddcb40a771c6047e5c1a39ea860a874e\transformed\jetified-ml-computer-vision-formrecognition-2.0.4.300\AndroidManifest.xml:17:13-97
+178            android:value="ml-computer-vision-formrecognition:2.0.4.300" /> <!-- SDK 配置api-level -->
+178-->[com.huawei.hms:ml-computer-vision-formrecognition:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ddcb40a771c6047e5c1a39ea860a874e\transformed\jetified-ml-computer-vision-formrecognition-2.0.4.300\AndroidManifest.xml:18:13-73
+179        <meta-data
+179-->[com.huawei.hms:ml-speech-semantics-sounddect-sdk:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8bdf91b451310e9f7619898d8de4c062\transformed\jetified-ml-speech-semantics-sounddect-sdk-2.0.3.300\AndroidManifest.xml:14:9-16:33
+180            android:name="com.huawei.hms.kit.min_api_level:ml-speech-semantics:huawei_module_mlkit_sounddect"
+180-->[com.huawei.hms:ml-speech-semantics-sounddect-sdk:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8bdf91b451310e9f7619898d8de4c062\transformed\jetified-ml-speech-semantics-sounddect-sdk-2.0.3.300\AndroidManifest.xml:15:13-110
+181            android:value="1" />
+181-->[com.huawei.hms:ml-speech-semantics-sounddect-sdk:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8bdf91b451310e9f7619898d8de4c062\transformed\jetified-ml-speech-semantics-sounddect-sdk-2.0.3.300\AndroidManifest.xml:16:13-30
+182        <meta-data
+182-->[com.huawei.hms:ml-speech-semantics-sounddect-sdk:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8bdf91b451310e9f7619898d8de4c062\transformed\jetified-ml-speech-semantics-sounddect-sdk-2.0.3.300\AndroidManifest.xml:17:9-19:75
+183            android:name="com.huawei.hms.client.service.name:ml-speech-semantics-sounddect-sdk"
+183-->[com.huawei.hms:ml-speech-semantics-sounddect-sdk:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8bdf91b451310e9f7619898d8de4c062\transformed\jetified-ml-speech-semantics-sounddect-sdk-2.0.3.300\AndroidManifest.xml:18:13-96
+184            android:value="ml-speech-semantics-sounddect-sdk:2.0.3.300" />
+184-->[com.huawei.hms:ml-speech-semantics-sounddect-sdk:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8bdf91b451310e9f7619898d8de4c062\transformed\jetified-ml-speech-semantics-sounddect-sdk-2.0.3.300\AndroidManifest.xml:19:13-72
+185        <meta-data
+185-->[com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c236861fb5a18f6fb81018191882658\transformed\jetified-ml-computer-vision-imagesuperresolution-2.0.4.300\AndroidManifest.xml:13:9-15:33
+186            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_imagesuperresolution"
+186-->[com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c236861fb5a18f6fb81018191882658\transformed\jetified-ml-computer-vision-imagesuperresolution-2.0.4.300\AndroidManifest.xml:14:13-116
+187            android:value="1" />
+187-->[com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c236861fb5a18f6fb81018191882658\transformed\jetified-ml-computer-vision-imagesuperresolution-2.0.4.300\AndroidManifest.xml:15:13-30
+188        <meta-data
+188-->[com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c236861fb5a18f6fb81018191882658\transformed\jetified-ml-computer-vision-imagesuperresolution-2.0.4.300\AndroidManifest.xml:16:9-18:81
+189            android:name="com.huawei.hms.client.service.name:ml-computer-vision-imagesuperresolution"
+189-->[com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c236861fb5a18f6fb81018191882658\transformed\jetified-ml-computer-vision-imagesuperresolution-2.0.4.300\AndroidManifest.xml:17:13-102
+190            android:value="ml-computer-vision-imagesuperresolution:2.0.4.300" />
+190-->[com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\1c236861fb5a18f6fb81018191882658\transformed\jetified-ml-computer-vision-imagesuperresolution-2.0.4.300\AndroidManifest.xml:18:13-78
+191        <meta-data
+191-->[com.huawei.hms:ml-computer-vision-documentskew:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\21ead2cca5eb90dade7c88c851c90169\transformed\jetified-ml-computer-vision-documentskew-2.0.4.300\AndroidManifest.xml:13:9-15:33
+192            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_dsc"
+192-->[com.huawei.hms:ml-computer-vision-documentskew:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\21ead2cca5eb90dade7c88c851c90169\transformed\jetified-ml-computer-vision-documentskew-2.0.4.300\AndroidManifest.xml:14:13-99
+193            android:value="1" />
+193-->[com.huawei.hms:ml-computer-vision-documentskew:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\21ead2cca5eb90dade7c88c851c90169\transformed\jetified-ml-computer-vision-documentskew-2.0.4.300\AndroidManifest.xml:15:13-30
+194        <meta-data
+194-->[com.huawei.hms:ml-computer-vision-documentskew:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\21ead2cca5eb90dade7c88c851c90169\transformed\jetified-ml-computer-vision-documentskew-2.0.4.300\AndroidManifest.xml:16:9-18:73
+195            android:name="com.huawei.hms.client.service.name:ml-computer-vision-documentskew"
+195-->[com.huawei.hms:ml-computer-vision-documentskew:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\21ead2cca5eb90dade7c88c851c90169\transformed\jetified-ml-computer-vision-documentskew-2.0.4.300\AndroidManifest.xml:17:13-94
+196            android:value="ml-computer-vision-documentskew:2.0.4.300" />
+196-->[com.huawei.hms:ml-computer-vision-documentskew:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\21ead2cca5eb90dade7c88c851c90169\transformed\jetified-ml-computer-vision-documentskew-2.0.4.300\AndroidManifest.xml:18:13-70
+197        <meta-data
+197-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c771209f43dce9475d06cdd511284de6\transformed\jetified-ml-computer-vision-textimagesuperresolution-2.0.4.300\AndroidManifest.xml:13:9-15:33
+198            android:name="com.huawei.hms.min_api_level:ml-computer-vision-textimagesuperresolution:huawei_module_mlkit_tisr"
+198-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c771209f43dce9475d06cdd511284de6\transformed\jetified-ml-computer-vision-textimagesuperresolution-2.0.4.300\AndroidManifest.xml:14:13-125
+199            android:value="1" />
+199-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c771209f43dce9475d06cdd511284de6\transformed\jetified-ml-computer-vision-textimagesuperresolution-2.0.4.300\AndroidManifest.xml:15:13-30
+200        <meta-data
+200-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c771209f43dce9475d06cdd511284de6\transformed\jetified-ml-computer-vision-textimagesuperresolution-2.0.4.300\AndroidManifest.xml:16:9-18:85
+201            android:name="com.huawei.hms.client.service.name:ml-computer-vision-textimagesuperresolution"
+201-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c771209f43dce9475d06cdd511284de6\transformed\jetified-ml-computer-vision-textimagesuperresolution-2.0.4.300\AndroidManifest.xml:17:13-106
+202            android:value="ml-computer-vision-textimagesuperresolution:2.0.4.300" />
+202-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c771209f43dce9475d06cdd511284de6\transformed\jetified-ml-computer-vision-textimagesuperresolution-2.0.4.300\AndroidManifest.xml:18:13-82
+203        <meta-data
+203-->[com.huawei.hms:ml-computer-vision-scenedetection:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\e04446c6c5f6b76a7a50016bfa075462\transformed\jetified-ml-computer-vision-scenedetection-2.0.3.300\AndroidManifest.xml:13:9-15:33
+204            android:name="com.huawei.hms.min_api_level:ml-computer-vision-scenedetection:huawei_module_mlkit_scenedetection"
+204-->[com.huawei.hms:ml-computer-vision-scenedetection:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\e04446c6c5f6b76a7a50016bfa075462\transformed\jetified-ml-computer-vision-scenedetection-2.0.3.300\AndroidManifest.xml:14:13-125
+205            android:value="1" />
+205-->[com.huawei.hms:ml-computer-vision-scenedetection:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\e04446c6c5f6b76a7a50016bfa075462\transformed\jetified-ml-computer-vision-scenedetection-2.0.3.300\AndroidManifest.xml:15:13-30
+206        <meta-data
+206-->[com.huawei.hms:ml-computer-vision-scenedetection:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\e04446c6c5f6b76a7a50016bfa075462\transformed\jetified-ml-computer-vision-scenedetection-2.0.3.300\AndroidManifest.xml:16:9-18:75
+207            android:name="com.huawei.hms.client.service.name:ml-computer-vision-scenedetection"
+207-->[com.huawei.hms:ml-computer-vision-scenedetection:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\e04446c6c5f6b76a7a50016bfa075462\transformed\jetified-ml-computer-vision-scenedetection-2.0.3.300\AndroidManifest.xml:17:13-96
+208            android:value="ml-computer-vision-scenedetection:2.0.3.300" /> <!-- SDK 配置api-level -->
+208-->[com.huawei.hms:ml-computer-vision-scenedetection:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\e04446c6c5f6b76a7a50016bfa075462\transformed\jetified-ml-computer-vision-scenedetection-2.0.3.300\AndroidManifest.xml:18:13-72
+209        <!-- skeleton       1： 2.0.1.300    服务初始版本 -->
+210        <!-- skeleton       2： 2.0.4.300    合入了瑜伽场景，瑜伽骨骼点与通用骨骼点使用两个fullsdk，公用一套SDK -->
+211        <meta-data
+211-->[com.huawei.hms:ml-computer-vision-skeleton:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ec577bc8f691302873e69a7d078ded8\transformed\jetified-ml-computer-vision-skeleton-2.0.4.300\AndroidManifest.xml:17:9-19:33
+212            android:name="com.huawei.hms.kit.min_api_level:ml-computer-vision:huawei_module_mlkit_skeleton"
+212-->[com.huawei.hms:ml-computer-vision-skeleton:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ec577bc8f691302873e69a7d078ded8\transformed\jetified-ml-computer-vision-skeleton-2.0.4.300\AndroidManifest.xml:18:13-108
+213            android:value="2" />
+213-->[com.huawei.hms:ml-computer-vision-skeleton:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ec577bc8f691302873e69a7d078ded8\transformed\jetified-ml-computer-vision-skeleton-2.0.4.300\AndroidManifest.xml:19:13-30
+214        <meta-data
+214-->[com.huawei.hms:ml-computer-vision-skeleton:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ec577bc8f691302873e69a7d078ded8\transformed\jetified-ml-computer-vision-skeleton-2.0.4.300\AndroidManifest.xml:20:9-22:69
+215            android:name="com.huawei.hms.client.service.name:ml-computer-vision-skeleton"
+215-->[com.huawei.hms:ml-computer-vision-skeleton:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ec577bc8f691302873e69a7d078ded8\transformed\jetified-ml-computer-vision-skeleton-2.0.4.300\AndroidManifest.xml:21:13-90
+216            android:value="ml-computer-vision-skeleton:2.0.4.300" />
+216-->[com.huawei.hms:ml-computer-vision-skeleton:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3ec577bc8f691302873e69a7d078ded8\transformed\jetified-ml-computer-vision-skeleton-2.0.4.300\AndroidManifest.xml:22:13-66
+217
+218        <activity
+218-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:14:9-21:35
+219            android:name="com.huawei.hms.mlsdk.livenessdetection.ui.LivenessDetectActivity"
+219-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:15:13-92
+220            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+220-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:16:13-91
+221            android:launchMode="singleTop"
+221-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:17:13-43
+222            android:resizeableActivity="true"
+222-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:18:13-46
+223            android:screenOrientation="portrait"
+223-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:19:13-49
+224            android:theme="@android:style/Theme.Light.NoTitleBar" /> <!-- SDK 配置api-level -->
+224-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:20:13-66
+225        <meta-data
+225-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:24:9-26:33
+226            android:name="com.huawei.hms.kit.min_api_level:ml-computer-vision:huawei_module_mlkit_livenessdetection"
+226-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:25:13-117
+227            android:value="1" />
+227-->[com.huawei.hms:ml-computer-vision-livenessdetection:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\dd12c1e0a5b618e77bb0da26661946e6\transformed\jetified-ml-computer-vision-livenessdetection-2.0.5.300\AndroidManifest.xml:26:13-30
+228        <meta-data
+228-->[com.huawei.hms:ml-computer-vision-handkeypoint:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\fe96d564cf309355931d1f077d8a76e4\transformed\jetified-ml-computer-vision-handkeypoint-2.0.4.300\AndroidManifest.xml:13:9-15:33
+229            android:name="com.huawei.hms.min_api_level:ml-computer-vision:huawei_module_mlkit_handkeypoint"
+229-->[com.huawei.hms:ml-computer-vision-handkeypoint:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\fe96d564cf309355931d1f077d8a76e4\transformed\jetified-ml-computer-vision-handkeypoint-2.0.4.300\AndroidManifest.xml:14:13-108
+230            android:value="1" />
+230-->[com.huawei.hms:ml-computer-vision-handkeypoint:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\fe96d564cf309355931d1f077d8a76e4\transformed\jetified-ml-computer-vision-handkeypoint-2.0.4.300\AndroidManifest.xml:15:13-30
+231        <meta-data
+231-->[com.huawei.hms:ml-computer-vision-handkeypoint:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\fe96d564cf309355931d1f077d8a76e4\transformed\jetified-ml-computer-vision-handkeypoint-2.0.4.300\AndroidManifest.xml:16:9-18:73
+232            android:name="com.huawei.hms.client.service.name:ml-computer-vision-handkeypoint"
+232-->[com.huawei.hms:ml-computer-vision-handkeypoint:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\fe96d564cf309355931d1f077d8a76e4\transformed\jetified-ml-computer-vision-handkeypoint-2.0.4.300\AndroidManifest.xml:17:13-94
+233            android:value="ml-computer-vision-handkeypoint:2.0.4.300" />
+233-->[com.huawei.hms:ml-computer-vision-handkeypoint:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\fe96d564cf309355931d1f077d8a76e4\transformed\jetified-ml-computer-vision-handkeypoint-2.0.4.300\AndroidManifest.xml:18:13-70
+234        <meta-data
+234-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:14:9-16:65
+235            android:name="com.huawei.hms.client.service.name:ml-computer-vision-base"
+235-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:15:13-86
+236            android:value="ml-computer-vision-base:2.0.5.300" />
+236-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:16:13-62
+237
+238        <provider
+238-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:18:9-21:40
+239            android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"
+239-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:19:13-86
+240            android:authorities="ttstestsarfojoe.huawei.MLInitializerProvider"
+240-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:20:13-73
+241            android:exported="false" />
+241-->[com.huawei.hms:ml-computer-vision-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\0809f1a94061800f25fcac9d0cba8d62\transformed\jetified-ml-computer-vision-base-2.0.5.300\AndroidManifest.xml:21:13-37
+242
+243        <meta-data
+243-->[com.huawei.hms:ml-computer-model-executor:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\52d5881a1bbc3801fc1f6f931c730141\transformed\jetified-ml-computer-model-executor-2.0.5.300\AndroidManifest.xml:12:9-14:68
+244            android:name="com.huawei.hms.client.service.name:ml-computer-model-executor"
+244-->[com.huawei.hms:ml-computer-model-executor:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\52d5881a1bbc3801fc1f6f931c730141\transformed\jetified-ml-computer-model-executor-2.0.5.300\AndroidManifest.xml:13:13-89
+245            android:value="ml-computer-model-executor:2.0.5.300" />
+245-->[com.huawei.hms:ml-computer-model-executor:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\52d5881a1bbc3801fc1f6f931c730141\transformed\jetified-ml-computer-model-executor-2.0.5.300\AndroidManifest.xml:14:13-65
+246        <meta-data
+246-->[com.huawei.hms:ml-computer-model-download:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ff8b123225cde46438decd9da95d0c5e\transformed\jetified-ml-computer-model-download-2.0.4.300\AndroidManifest.xml:12:9-14:68
+247            android:name="com.huawei.hms.client.service.name:ml-computer-model-download"
+247-->[com.huawei.hms:ml-computer-model-download:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ff8b123225cde46438decd9da95d0c5e\transformed\jetified-ml-computer-model-download-2.0.4.300\AndroidManifest.xml:13:13-89
+248            android:value="ml-computer-model-download:2.0.4.300" />
+248-->[com.huawei.hms:ml-computer-model-download:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\ff8b123225cde46438decd9da95d0c5e\transformed\jetified-ml-computer-model-download-2.0.4.300\AndroidManifest.xml:14:13-65
+249        <meta-data
+249-->[com.huawei.hms:ml-computer-language-detection-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f7516627632693ac9c05d09fad291b4a\transformed\jetified-ml-computer-language-detection-model-2.0.5.300\AndroidManifest.xml:12:9-14:78
+250            android:name="com.huawei.hms.client.service.name:ml-computer-language-detection-model"
+250-->[com.huawei.hms:ml-computer-language-detection-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f7516627632693ac9c05d09fad291b4a\transformed\jetified-ml-computer-language-detection-model-2.0.5.300\AndroidManifest.xml:13:13-99
+251            android:value="ml-computer-language-detection-model:2.0.5.300" />
+251-->[com.huawei.hms:ml-computer-language-detection-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f7516627632693ac9c05d09fad291b4a\transformed\jetified-ml-computer-language-detection-model-2.0.5.300\AndroidManifest.xml:14:13-75
+252
+253        <activity android:name="com.huawei.hms.mlplugin.card.gcr.CaptureActivity" />
+253-->[com.huawei.hms:ml-computer-card-gcr-plugin:2.0.1.301] C:\Users\sarfo\.gradle\caches\transforms-3\ed45d2dc2f2b4f7dafa9d56cbe11c1e5\transformed\jetified-ml-computer-card-gcr-plugin-2.0.1.301\AndroidManifest.xml:17:9-85
+253-->[com.huawei.hms:ml-computer-card-gcr-plugin:2.0.1.301] C:\Users\sarfo\.gradle\caches\transforms-3\ed45d2dc2f2b4f7dafa9d56cbe11c1e5\transformed\jetified-ml-computer-card-gcr-plugin-2.0.1.301\AndroidManifest.xml:17:19-82
+254
+255        <meta-data
+255-->[com.huawei.hms:ml-nlp-textembedding:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\a334251c54b5b167e3dc108d594fdb51\transformed\jetified-ml-nlp-textembedding-2.0.4.300\AndroidManifest.xml:12:9-14:62
+256            android:name="com.huawei.hms.client.service.name:ml-nlp-textembedding"
+256-->[com.huawei.hms:ml-nlp-textembedding:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\a334251c54b5b167e3dc108d594fdb51\transformed\jetified-ml-nlp-textembedding-2.0.4.300\AndroidManifest.xml:13:13-83
+257            android:value="ml-nlp-textembedding:1.0.2.300" />
+257-->[com.huawei.hms:ml-nlp-textembedding:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\a334251c54b5b167e3dc108d594fdb51\transformed\jetified-ml-nlp-textembedding-2.0.4.300\AndroidManifest.xml:14:13-59
+258        <!--
+259        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+260        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+261        -->
+262        <meta-data
+262-->[com.huawei.hms:base:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d873baea5c680a596d01ad401cd922c7\transformed\jetified-base-5.0.5.300\AndroidManifest.xml:18:9-20:46
+263            android:name="com.huawei.hms.client.service.name:base"
+263-->[com.huawei.hms:base:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d873baea5c680a596d01ad401cd922c7\transformed\jetified-base-5.0.5.300\AndroidManifest.xml:19:13-67
+264            android:value="base:5.0.5.300" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+264-->[com.huawei.hms:base:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d873baea5c680a596d01ad401cd922c7\transformed\jetified-base-5.0.5.300\AndroidManifest.xml:20:13-43
+265        <meta-data
+265-->[com.huawei.hms:base:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d873baea5c680a596d01ad401cd922c7\transformed\jetified-base-5.0.5.300\AndroidManifest.xml:23:9-25:33
+266            android:name="com.huawei.hms.min_api_level:base:hmscore"
+266-->[com.huawei.hms:base:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d873baea5c680a596d01ad401cd922c7\transformed\jetified-base-5.0.5.300\AndroidManifest.xml:24:13-69
+267            android:value="1" />
+267-->[com.huawei.hms:base:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d873baea5c680a596d01ad401cd922c7\transformed\jetified-base-5.0.5.300\AndroidManifest.xml:25:13-30
+268        <meta-data
+268-->[com.huawei.hms:ml-speech-semantics-sounddect-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8689310cccc80401aa4db03b05598ce5\transformed\jetified-ml-speech-semantics-sounddect-model-2.0.3.300\AndroidManifest.xml:12:9-14:77
+269            android:name="com.huawei.hms.client.service.name:ml-speech-semantics-sounddect-model"
+269-->[com.huawei.hms:ml-speech-semantics-sounddect-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8689310cccc80401aa4db03b05598ce5\transformed\jetified-ml-speech-semantics-sounddect-model-2.0.3.300\AndroidManifest.xml:13:13-98
+270            android:value="ml-speech-semantics-sounddect-model:2.0.2.300" />
+270-->[com.huawei.hms:ml-speech-semantics-sounddect-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\8689310cccc80401aa4db03b05598ce5\transformed\jetified-ml-speech-semantics-sounddect-model-2.0.3.300\AndroidManifest.xml:14:13-74
+271        <meta-data
+271-->[com.huawei.hms:ml-computer-dynamic:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\aec251ee06ce31aa5c23cbc4bd20e0b2\transformed\jetified-ml-computer-dynamic-2.0.5.300\AndroidManifest.xml:12:9-14:61
+272            android:name="com.huawei.hms.client.service.name:ml-computer-dynamic"
+272-->[com.huawei.hms:ml-computer-dynamic:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\aec251ee06ce31aa5c23cbc4bd20e0b2\transformed\jetified-ml-computer-dynamic-2.0.5.300\AndroidManifest.xml:13:13-82
+273            android:value="ml-computer-dynamic:2.0.5.300" /> <!-- 用于判断是否集成了本lib -->
+273-->[com.huawei.hms:ml-computer-dynamic:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\aec251ee06ce31aa5c23cbc4bd20e0b2\transformed\jetified-ml-computer-dynamic-2.0.5.300\AndroidManifest.xml:14:13-58
+274        <meta-data
+274-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:23:9-25:35
+275            android:name="availableLoaded"
+275-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:24:13-43
+276            android:value="yes" />
+276-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:25:13-32
+277
+278        <provider
+278-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:27:9-32:20
+279            android:name="com.huawei.hms.update.provider.UpdateProvider"
+279-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:28:13-73
+280            android:authorities="ttstestsarfojoe.huawei.hms.update.provider"
+280-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:29:13-71
+281            android:exported="false"
+281-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:30:13-37
+282            android:grantUriPermissions="true" >
+282-->[com.huawei.hms:availableupdate:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\62933f96b4c485ff1676d05137ce50cf\transformed\jetified-availableupdate-5.0.5.300\AndroidManifest.xml:31:13-47
+283        </provider>
+284        <provider
+284-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:11:9-14:40
+285            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+285-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:12:13-90
+286            android:authorities="ttstestsarfojoe.huawei.AGCInitializeProvider"
+286-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:13:13-73
+287            android:exported="false" />
+287-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:14:13-37
+288
+289        <service
+289-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:16:9-18:40
+290            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+290-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:17:13-70
+291            android:exported="false" />
+291-->[com.huawei.agconnect:agconnect-core:1.5.2.300] C:\Users\sarfo\.gradle\caches\transforms-3\af831804895f16554d0390382e74ab41\transformed\jetified-agconnect-core-1.5.2.300\AndroidManifest.xml:18:13-37
+292
+293        <meta-data
+293-->[com.huawei.hms:ml-computer-vision-ocr-latin-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d50017879a944a1aa4fdfd820ebc0ccb\transformed\jetified-ml-computer-vision-ocr-latin-model-2.0.5.300\AndroidManifest.xml:15:9-17:76
+294            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-latin-model"
+294-->[com.huawei.hms:ml-computer-vision-ocr-latin-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d50017879a944a1aa4fdfd820ebc0ccb\transformed\jetified-ml-computer-vision-ocr-latin-model-2.0.5.300\AndroidManifest.xml:16:13-97
+295            android:value="ml-computer-vision-ocr-latin-model:2.0.5.300" />
+295-->[com.huawei.hms:ml-computer-vision-ocr-latin-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\d50017879a944a1aa4fdfd820ebc0ccb\transformed\jetified-ml-computer-vision-ocr-latin-model-2.0.5.300\AndroidManifest.xml:17:13-73
+296        <meta-data
+296-->[com.huawei.hms:ml-computer-vision-ocr-jk-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b0c6aad531bbf528e362ab89c8a048ae\transformed\jetified-ml-computer-vision-ocr-jk-model-2.0.5.300\AndroidManifest.xml:15:9-17:73
+297            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-jk-model"
+297-->[com.huawei.hms:ml-computer-vision-ocr-jk-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b0c6aad531bbf528e362ab89c8a048ae\transformed\jetified-ml-computer-vision-ocr-jk-model-2.0.5.300\AndroidManifest.xml:16:13-94
+298            android:value="ml-computer-vision-ocr-jk-model:2.0.5.300" />
+298-->[com.huawei.hms:ml-computer-vision-ocr-jk-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b0c6aad531bbf528e362ab89c8a048ae\transformed\jetified-ml-computer-vision-ocr-jk-model-2.0.5.300\AndroidManifest.xml:17:13-70
+299        <meta-data
+299-->[com.huawei.hms:ml-computer-vision-ocr-cn-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\c113603d2b5e3612f57c88932ed4c9a3\transformed\jetified-ml-computer-vision-ocr-cn-model-2.0.5.300\AndroidManifest.xml:15:9-17:73
+300            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-cn-model"
+300-->[com.huawei.hms:ml-computer-vision-ocr-cn-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\c113603d2b5e3612f57c88932ed4c9a3\transformed\jetified-ml-computer-vision-ocr-cn-model-2.0.5.300\AndroidManifest.xml:16:13-94
+301            android:value="ml-computer-vision-ocr-cn-model:2.0.5.300" />
+301-->[com.huawei.hms:ml-computer-vision-ocr-cn-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\c113603d2b5e3612f57c88932ed4c9a3\transformed\jetified-ml-computer-vision-ocr-cn-model-2.0.5.300\AndroidManifest.xml:17:13-70
+302        <meta-data
+302-->[com.huawei.hms:ml-computer-vision-formrecognition-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\044ec3c317d6dbbebff7bb09c4d33822\transformed\jetified-ml-computer-vision-formrecognition-model-2.0.4.300\AndroidManifest.xml:15:9-17:82
+303            android:name="com.huawei.hms.client.service.name:ml-computer-vision-formrecognition-model"
+303-->[com.huawei.hms:ml-computer-vision-formrecognition-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\044ec3c317d6dbbebff7bb09c4d33822\transformed\jetified-ml-computer-vision-formrecognition-model-2.0.4.300\AndroidManifest.xml:16:13-103
+304            android:value="ml-computer-vision-formrecognition-model:2.0.4.300" />
+304-->[com.huawei.hms:ml-computer-vision-formrecognition-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\044ec3c317d6dbbebff7bb09c4d33822\transformed\jetified-ml-computer-vision-formrecognition-model-2.0.4.300\AndroidManifest.xml:17:13-79
+305        <meta-data
+305-->[com.huawei.hms:ml-computer-voice-tts-model-bee:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\29c83396f4a3f161171dbc6316b47c22\transformed\jetified-ml-computer-voice-tts-model-bee-2.0.5.300\AndroidManifest.xml:12:9-14:73
+306            android:name="com.huawei.hms.client.service.name:ml-computer-voice-tts-model-bee"
+306-->[com.huawei.hms:ml-computer-voice-tts-model-bee:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\29c83396f4a3f161171dbc6316b47c22\transformed\jetified-ml-computer-voice-tts-model-bee-2.0.5.300\AndroidManifest.xml:13:13-94
+307            android:value="ml-computer-voice-tts-model-bee:2.0.5.300" />
+307-->[com.huawei.hms:ml-computer-voice-tts-model-bee:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\29c83396f4a3f161171dbc6316b47c22\transformed\jetified-ml-computer-voice-tts-model-bee-2.0.5.300\AndroidManifest.xml:14:13-70
+308        <meta-data
+308-->[com.huawei.hms:ml-computer-voice-tts-model-eagle:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6b37795141a98ad9699376b6d1ee0257\transformed\jetified-ml-computer-voice-tts-model-eagle-2.0.5.300\AndroidManifest.xml:12:9-14:75
+309            android:name="com.huawei.hms.client.service.name:ml-computer-voice-tts-model-eagle"
+309-->[com.huawei.hms:ml-computer-voice-tts-model-eagle:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6b37795141a98ad9699376b6d1ee0257\transformed\jetified-ml-computer-voice-tts-model-eagle-2.0.5.300\AndroidManifest.xml:13:13-96
+310            android:value="ml-computer-voice-tts-model-eagle:2.0.5.300" />
+310-->[com.huawei.hms:ml-computer-voice-tts-model-eagle:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\6b37795141a98ad9699376b6d1ee0257\transformed\jetified-ml-computer-voice-tts-model-eagle-2.0.5.300\AndroidManifest.xml:14:13-72
+311        <meta-data
+311-->[com.huawei.hms:ml-computer-vision-image-classification-model:2.0.1.300] C:\Users\sarfo\.gradle\caches\transforms-3\9cc90154c2a168a2eaaffc219626c22c\transformed\jetified-ml-computer-vision-image-classification-model-2.0.1.300\AndroidManifest.xml:16:9-18:87
+312            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-classification-model"
+312-->[com.huawei.hms:ml-computer-vision-image-classification-model:2.0.1.300] C:\Users\sarfo\.gradle\caches\transforms-3\9cc90154c2a168a2eaaffc219626c22c\transformed\jetified-ml-computer-vision-image-classification-model-2.0.1.300\AndroidManifest.xml:17:13-108
+313            android:value="ml-computer-vision-image-classification-model:2.0.1.300" />
+313-->[com.huawei.hms:ml-computer-vision-image-classification-model:2.0.1.300] C:\Users\sarfo\.gradle\caches\transforms-3\9cc90154c2a168a2eaaffc219626c22c\transformed\jetified-ml-computer-vision-image-classification-model-2.0.1.300\AndroidManifest.xml:18:13-84
+314        <meta-data
+314-->[com.huawei.hms:ml-computer-vision-object-detection-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\6bf2dfe2547e86ea6281a9f1ea031d6f\transformed\jetified-ml-computer-vision-object-detection-model-2.0.3.300\AndroidManifest.xml:15:9-17:83
+315            android:name="com.huawei.hms.client.service.name:ml-computer-vision-object-detection-model"
+315-->[com.huawei.hms:ml-computer-vision-object-detection-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\6bf2dfe2547e86ea6281a9f1ea031d6f\transformed\jetified-ml-computer-vision-object-detection-model-2.0.3.300\AndroidManifest.xml:16:13-104
+316            android:value="ml-computer-vision-object-detection-model:2.0.3.300" />
+316-->[com.huawei.hms:ml-computer-vision-object-detection-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\6bf2dfe2547e86ea6281a9f1ea031d6f\transformed\jetified-ml-computer-vision-object-detection-model-2.0.3.300\AndroidManifest.xml:17:13-80
+317        <meta-data
+317-->[com.huawei.hms:ml-computer-vision-image-segmentation-multiclass-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c202446eb19d8c44f5b06c1635db0adf\transformed\jetified-ml-computer-vision-image-segmentation-multiclass-model-2.0.4.300\AndroidManifest.xml:15:9-17:96
+318            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-segmentation-multiclass-model"
+318-->[com.huawei.hms:ml-computer-vision-image-segmentation-multiclass-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c202446eb19d8c44f5b06c1635db0adf\transformed\jetified-ml-computer-vision-image-segmentation-multiclass-model-2.0.4.300\AndroidManifest.xml:16:13-117
+319            android:value="ml-computer-vision-image-segmentation-multiclass-model:2.0.4.300" />
+319-->[com.huawei.hms:ml-computer-vision-image-segmentation-multiclass-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\c202446eb19d8c44f5b06c1635db0adf\transformed\jetified-ml-computer-vision-image-segmentation-multiclass-model-2.0.4.300\AndroidManifest.xml:17:13-93
+320        <meta-data
+320-->[com.huawei.hms:ml-computer-vision-image-segmentation-body-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\89245638b0b2ce421cbd30daa33b98c2\transformed\jetified-ml-computer-vision-image-segmentation-body-model-2.0.4.300\AndroidManifest.xml:15:9-17:90
+321            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-segmentation-body-model"
+321-->[com.huawei.hms:ml-computer-vision-image-segmentation-body-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\89245638b0b2ce421cbd30daa33b98c2\transformed\jetified-ml-computer-vision-image-segmentation-body-model-2.0.4.300\AndroidManifest.xml:16:13-111
+322            android:value="ml-computer-vision-image-segmentation-body-model:2.0.4.300" />
+322-->[com.huawei.hms:ml-computer-vision-image-segmentation-body-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\89245638b0b2ce421cbd30daa33b98c2\transformed\jetified-ml-computer-vision-image-segmentation-body-model-2.0.4.300\AndroidManifest.xml:17:13-87
+323        <meta-data
+323-->[com.huawei.hms:ml-computer-vision-imagesuperresolution-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\bff53a7445858941c1c4b4d122917810\transformed\jetified-ml-computer-vision-imagesuperresolution-model-2.0.4.300\AndroidManifest.xml:12:9-14:87
+324            android:name="com.huawei.hms.client.service.name:ml-computer-vision-imagesuperresolution-model"
+324-->[com.huawei.hms:ml-computer-vision-imagesuperresolution-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\bff53a7445858941c1c4b4d122917810\transformed\jetified-ml-computer-vision-imagesuperresolution-model-2.0.4.300\AndroidManifest.xml:13:13-108
+325            android:value="ml-computer-vision-imagesuperresolution-model:2.0.4.300" />
+325-->[com.huawei.hms:ml-computer-vision-imagesuperresolution-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\bff53a7445858941c1c4b4d122917810\transformed\jetified-ml-computer-vision-imagesuperresolution-model-2.0.4.300\AndroidManifest.xml:14:13-84
+326        <meta-data
+326-->[com.huawei.hms:ml-computer-vision-documentskew-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\2724b7e3bfafa1a477ac6871870fe51a\transformed\jetified-ml-computer-vision-documentskew-model-2.0.4.300\AndroidManifest.xml:13:9-15:76
+327            android:name="com.huawei.hms.client.service.name:ml-computer-documentskewcorrection"
+327-->[com.huawei.hms:ml-computer-vision-documentskew-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\2724b7e3bfafa1a477ac6871870fe51a\transformed\jetified-ml-computer-vision-documentskew-model-2.0.4.300\AndroidManifest.xml:14:13-97
+328            android:value="ml-computer-documentskewcorrection:2.0.4.300" />
+328-->[com.huawei.hms:ml-computer-vision-documentskew-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\2724b7e3bfafa1a477ac6871870fe51a\transformed\jetified-ml-computer-vision-documentskew-model-2.0.4.300\AndroidManifest.xml:15:13-73
+329        <meta-data
+329-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3c6666e28832681174a9378ffef8d77e\transformed\jetified-ml-computer-vision-textimagesuperresolution-model-2.0.4.300\AndroidManifest.xml:12:9-14:91
+330            android:name="com.huawei.hms.client.service.name:ml-computer-vision-textimagesuperresolution-model"
+330-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3c6666e28832681174a9378ffef8d77e\transformed\jetified-ml-computer-vision-textimagesuperresolution-model-2.0.4.300\AndroidManifest.xml:13:13-112
+331            android:value="ml-computer-vision-textimagesuperresolution-model:2.0.4.300" />
+331-->[com.huawei.hms:ml-computer-vision-textimagesuperresolution-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3c6666e28832681174a9378ffef8d77e\transformed\jetified-ml-computer-vision-textimagesuperresolution-model-2.0.4.300\AndroidManifest.xml:14:13-88
+332        <meta-data
+332-->[com.huawei.hms:ml-computer-vision-scenedetection-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\6f03b559950b0bc1ec363e4c6fe322cb\transformed\jetified-ml-computer-vision-scenedetection-model-2.0.3.300\AndroidManifest.xml:12:9-14:81
+333            android:name="com.huawei.hms.client.service.name:ml-computer-vision-scenedetection-model"
+333-->[com.huawei.hms:ml-computer-vision-scenedetection-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\6f03b559950b0bc1ec363e4c6fe322cb\transformed\jetified-ml-computer-vision-scenedetection-model-2.0.3.300\AndroidManifest.xml:13:13-102
+334            android:value="ml-computer-vision-scenedetection-model:2.0.3.300" />
+334-->[com.huawei.hms:ml-computer-vision-scenedetection-model:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\6f03b559950b0bc1ec363e4c6fe322cb\transformed\jetified-ml-computer-vision-scenedetection-model-2.0.3.300\AndroidManifest.xml:14:13-78
+335        <meta-data
+335-->[com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\336f051e6c5b2c2970895104ccb9ff4d\transformed\jetified-ml-computer-vision-face-shape-point-model-2.0.5.300\AndroidManifest.xml:17:9-19:83
+336            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-shape"
+336-->[com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\336f051e6c5b2c2970895104ccb9ff4d\transformed\jetified-ml-computer-vision-face-shape-point-model-2.0.5.300\AndroidManifest.xml:18:13-104
+337            android:value="ml-computer-vision-face-recognition-shape:2.0.5.300" />
+337-->[com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\336f051e6c5b2c2970895104ccb9ff4d\transformed\jetified-ml-computer-vision-face-shape-point-model-2.0.5.300\AndroidManifest.xml:19:13-80
+338        <meta-data
+338-->[com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\336f051e6c5b2c2970895104ccb9ff4d\transformed\jetified-ml-computer-vision-face-shape-point-model-2.0.5.300\AndroidManifest.xml:20:9-22:83
+339            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-model"
+339-->[com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\336f051e6c5b2c2970895104ccb9ff4d\transformed\jetified-ml-computer-vision-face-shape-point-model-2.0.5.300\AndroidManifest.xml:21:13-104
+340            android:value="ml-computer-vision-face-recognition-model:2.0.5.300" />
+340-->[com.huawei.hms:ml-computer-vision-face-shape-point-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\336f051e6c5b2c2970895104ccb9ff4d\transformed\jetified-ml-computer-vision-face-shape-point-model-2.0.5.300\AndroidManifest.xml:22:13-80
+341        <meta-data
+341-->[com.huawei.hms:ml-computer-vision-face-emotion-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b07d56d0943b3897ca2d2b113395963c\transformed\jetified-ml-computer-vision-face-emotion-model-2.0.5.300\AndroidManifest.xml:17:9-19:85
+342            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-emotion"
+342-->[com.huawei.hms:ml-computer-vision-face-emotion-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b07d56d0943b3897ca2d2b113395963c\transformed\jetified-ml-computer-vision-face-emotion-model-2.0.5.300\AndroidManifest.xml:18:13-106
+343            android:value="ml-computer-vision-face-recognition-emotion:2.0.5.300" />
+343-->[com.huawei.hms:ml-computer-vision-face-emotion-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\b07d56d0943b3897ca2d2b113395963c\transformed\jetified-ml-computer-vision-face-emotion-model-2.0.5.300\AndroidManifest.xml:19:13-82
+344        <meta-data
+344-->[com.huawei.hms:ml-computer-vision-face-feature-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\86a6bd3cf91b9254990937075e608cb9\transformed\jetified-ml-computer-vision-face-feature-model-2.0.5.300\AndroidManifest.xml:17:9-19:85
+345            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-feature"
+345-->[com.huawei.hms:ml-computer-vision-face-feature-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\86a6bd3cf91b9254990937075e608cb9\transformed\jetified-ml-computer-vision-face-feature-model-2.0.5.300\AndroidManifest.xml:18:13-106
+346            android:value="ml-computer-vision-face-recognition-feature:2.0.5.300" />
+346-->[com.huawei.hms:ml-computer-vision-face-feature-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\86a6bd3cf91b9254990937075e608cb9\transformed\jetified-ml-computer-vision-face-feature-model-2.0.5.300\AndroidManifest.xml:19:13-82
+347        <meta-data
+347-->[com.huawei.hms:ml-computer-vision-face-3d-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\aafa29416e250d5075fb87206d0e5678\transformed\jetified-ml-computer-vision-face-3d-model-2.0.5.300\AndroidManifest.xml:17:9-19:84
+348            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-face3d"
+348-->[com.huawei.hms:ml-computer-vision-face-3d-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\aafa29416e250d5075fb87206d0e5678\transformed\jetified-ml-computer-vision-face-3d-model-2.0.5.300\AndroidManifest.xml:18:13-105
+349            android:value="ml-computer-vision-face-recognition-face3d:2.0.5.300" />
+349-->[com.huawei.hms:ml-computer-vision-face-3d-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\aafa29416e250d5075fb87206d0e5678\transformed\jetified-ml-computer-vision-face-3d-model-2.0.5.300\AndroidManifest.xml:19:13-81
+350        <meta-data
+350-->[com.huawei.hms:ml-computer-vision-skeleton-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3af72d567c351a778a6dd25c8b69c42d\transformed\jetified-ml-computer-vision-skeleton-model-2.0.4.300\AndroidManifest.xml:12:9-14:75
+351            android:name="com.huawei.hms.client.service.name:ml-computer-vision-skeleton-model"
+351-->[com.huawei.hms:ml-computer-vision-skeleton-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3af72d567c351a778a6dd25c8b69c42d\transformed\jetified-ml-computer-vision-skeleton-model-2.0.4.300\AndroidManifest.xml:13:13-96
+352            android:value="ml-computer-vision-skeleton-model:2.0.4.300" />
+352-->[com.huawei.hms:ml-computer-vision-skeleton-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\3af72d567c351a778a6dd25c8b69c42d\transformed\jetified-ml-computer-vision-skeleton-model-2.0.4.300\AndroidManifest.xml:14:13-72
+353        <meta-data
+353-->[com.huawei.hms:ml-computer-vision-yoga-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\a5bb4f523d88717a8c3792140c519893\transformed\jetified-ml-computer-vision-yoga-model-2.0.4.300\AndroidManifest.xml:12:9-14:71
+354            android:name="com.huawei.hms.client.service.name:ml-computer-vision-yoga-model"
+354-->[com.huawei.hms:ml-computer-vision-yoga-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\a5bb4f523d88717a8c3792140c519893\transformed\jetified-ml-computer-vision-yoga-model-2.0.4.300\AndroidManifest.xml:13:13-92
+355            android:value="ml-computer-vision-yoga-model:2.0.4.300" />
+355-->[com.huawei.hms:ml-computer-vision-yoga-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\a5bb4f523d88717a8c3792140c519893\transformed\jetified-ml-computer-vision-yoga-model-2.0.4.300\AndroidManifest.xml:14:13-68
+356        <meta-data
+356-->[com.huawei.hms:ml-computer-vision-handkeypoint-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\83daffe0a8e116a65c74df7e08996694\transformed\jetified-ml-computer-vision-handkeypoint-model-2.0.4.300\AndroidManifest.xml:12:9-14:79
+357            android:name="com.huawei.hms.client.service.name:ml-computer-vision-handKeypoint-model"
+357-->[com.huawei.hms:ml-computer-vision-handkeypoint-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\83daffe0a8e116a65c74df7e08996694\transformed\jetified-ml-computer-vision-handkeypoint-model-2.0.4.300\AndroidManifest.xml:13:13-100
+358            android:value="ml-computer-vision-handKeypoint-model:2.0.4.300" />
+358-->[com.huawei.hms:ml-computer-vision-handkeypoint-model:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\83daffe0a8e116a65c74df7e08996694\transformed\jetified-ml-computer-vision-handkeypoint-model-2.0.4.300\AndroidManifest.xml:14:13-76
+359        <meta-data
+359-->[com.huawei.hms:ml-computer-net:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f94b46d9261ca6e1cbf98f42e85fb3da\transformed\jetified-ml-computer-net-2.0.5.300\AndroidManifest.xml:12:9-14:57
+360            android:name="com.huawei.hms.client.service.name:ml-computer-net"
+360-->[com.huawei.hms:ml-computer-net:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f94b46d9261ca6e1cbf98f42e85fb3da\transformed\jetified-ml-computer-net-2.0.5.300\AndroidManifest.xml:13:13-78
+361            android:value="ml-computer-net:2.0.5.300" />
+361-->[com.huawei.hms:ml-computer-net:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f94b46d9261ca6e1cbf98f42e85fb3da\transformed\jetified-ml-computer-net-2.0.5.300\AndroidManifest.xml:14:13-54
+362
+363        <uses-library
+363-->[com.huawei.hms:ml-computer-net:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f94b46d9261ca6e1cbf98f42e85fb3da\transformed\jetified-ml-computer-net-2.0.5.300\AndroidManifest.xml:16:9-18:40
+364            android:name="org.apache.http.legacy"
+364-->[com.huawei.hms:ml-computer-net:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f94b46d9261ca6e1cbf98f42e85fb3da\transformed\jetified-ml-computer-net-2.0.5.300\AndroidManifest.xml:17:13-50
+365            android:required="false" />
+365-->[com.huawei.hms:ml-computer-net:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\f94b46d9261ca6e1cbf98f42e85fb3da\transformed\jetified-ml-computer-net-2.0.5.300\AndroidManifest.xml:18:13-37
+366
+367        <meta-data
+367-->[com.huawei.hms:ml-computer-vision-ocr-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\24bbd7c495cf988ed99cbd769be412ed\transformed\jetified-ml-computer-vision-ocr-base-2.0.5.300\AndroidManifest.xml:15:9-17:69
+368            android:name="com.huawei.hms.client.service.name:ml-computer-vision-ocr-base"
+368-->[com.huawei.hms:ml-computer-vision-ocr-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\24bbd7c495cf988ed99cbd769be412ed\transformed\jetified-ml-computer-vision-ocr-base-2.0.5.300\AndroidManifest.xml:16:13-90
+369            android:value="ml-computer-vision-ocr-base:2.0.5.300" />
+369-->[com.huawei.hms:ml-computer-vision-ocr-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\24bbd7c495cf988ed99cbd769be412ed\transformed\jetified-ml-computer-vision-ocr-base-2.0.5.300\AndroidManifest.xml:17:13-66
+370        <meta-data
+370-->[com.huawei.hms:ml-computer-vision-inner:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\ee02b18c4903270d5039661c7c5a0521\transformed\jetified-ml-computer-vision-inner-2.0.5.300\AndroidManifest.xml:12:9-14:66
+371            android:name="com.huawei.hms.client.service.name:ml-computer-vision-inner"
+371-->[com.huawei.hms:ml-computer-vision-inner:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\ee02b18c4903270d5039661c7c5a0521\transformed\jetified-ml-computer-vision-inner-2.0.5.300\AndroidManifest.xml:13:13-87
+372            android:value="ml-computer-vision-inner:2.0.5.300" />
+372-->[com.huawei.hms:ml-computer-vision-inner:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\ee02b18c4903270d5039661c7c5a0521\transformed\jetified-ml-computer-vision-inner-2.0.5.300\AndroidManifest.xml:14:13-63
+373        <meta-data
+373-->[com.huawei.hms:ml-computer-vision-image-segmentation-base:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\56b4c89c99bb6132abb1e7cdaabc1f57\transformed\jetified-ml-computer-vision-image-segmentation-base-2.0.4.300\AndroidManifest.xml:15:9-17:84
+374            android:name="com.huawei.hms.client.service.name:ml-computer-vision-image-segmentation-base"
+374-->[com.huawei.hms:ml-computer-vision-image-segmentation-base:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\56b4c89c99bb6132abb1e7cdaabc1f57\transformed\jetified-ml-computer-vision-image-segmentation-base-2.0.4.300\AndroidManifest.xml:16:13-105
+375            android:value="ml-computer-vision-image-segmentation-base:2.0.4.300" />
+375-->[com.huawei.hms:ml-computer-vision-image-segmentation-base:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\56b4c89c99bb6132abb1e7cdaabc1f57\transformed\jetified-ml-computer-vision-image-segmentation-base-2.0.4.300\AndroidManifest.xml:17:13-81
+376        <meta-data
+376-->[com.huawei.hms:ml-computer-vision-face-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\44abc48d33b50bab4e32716301691f08\transformed\jetified-ml-computer-vision-face-base-2.0.5.300\AndroidManifest.xml:17:9-19:82
+377            android:name="com.huawei.hms.client.service.name:ml-computer-vision-face-recognition-base"
+377-->[com.huawei.hms:ml-computer-vision-face-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\44abc48d33b50bab4e32716301691f08\transformed\jetified-ml-computer-vision-face-base-2.0.5.300\AndroidManifest.xml:18:13-103
+378            android:value="ml-computer-vision-face-recognition-base:2.0.5.300" />
+378-->[com.huawei.hms:ml-computer-vision-face-base:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\44abc48d33b50bab4e32716301691f08\transformed\jetified-ml-computer-vision-face-base-2.0.5.300\AndroidManifest.xml:19:13-79
+379        <meta-data
+379-->[com.huawei.hms:ml-computer-vision-skeleton-base:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\13902bc7bacdcd7c493c2ac3de84d21b\transformed\jetified-ml-computer-vision-skeleton-base-2.0.4.300\AndroidManifest.xml:12:9-14:75
+380            android:name="com.huawei.hms.client.service.name:ml-computer-vision-skeleton-base"
+380-->[com.huawei.hms:ml-computer-vision-skeleton-base:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\13902bc7bacdcd7c493c2ac3de84d21b\transformed\jetified-ml-computer-vision-skeleton-base-2.0.4.300\AndroidManifest.xml:13:13-95
+381            android:value="ml-computer-vision-skeleton-model:2.0.4.300" />
+381-->[com.huawei.hms:ml-computer-vision-skeleton-base:2.0.4.300] C:\Users\sarfo\.gradle\caches\transforms-3\13902bc7bacdcd7c493c2ac3de84d21b\transformed\jetified-ml-computer-vision-skeleton-base-2.0.4.300\AndroidManifest.xml:14:13-72
+382        <meta-data
+382-->[com.huawei.hms:ml-computer-vision-livenessdetection-nodynamic-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\fb3371406e4f34e556066cf04f090994\transformed\jetified-ml-computer-vision-livenessdetection-nodynamic-model-2.0.5.300\AndroidManifest.xml:12:9-14:84
+383            android:name="com.huawei.hms.client.service.name:ml-computer-vision-livenessdetection-model"
+383-->[com.huawei.hms:ml-computer-vision-livenessdetection-nodynamic-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\fb3371406e4f34e556066cf04f090994\transformed\jetified-ml-computer-vision-livenessdetection-nodynamic-model-2.0.5.300\AndroidManifest.xml:13:13-105
+384            android:value="ml-computer-vision-livenessdetection-model:2.0.5.300" />
+384-->[com.huawei.hms:ml-computer-vision-livenessdetection-nodynamic-model:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\fb3371406e4f34e556066cf04f090994\transformed\jetified-ml-computer-vision-livenessdetection-nodynamic-model-2.0.5.300\AndroidManifest.xml:14:13-81
+385        <meta-data
+385-->[com.huawei.hms:ml-computer-card-bcr-nodynamic-model:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\5eeb37a3968bd521cfb0a5b199fcce86\transformed\jetified-ml-computer-card-bcr-nodynamic-model-2.0.3.301\AndroidManifest.xml:15:9-17:68
+386            android:name="com.huawei.hms.client.service.name:ml-computer-card-bcr-model"
+386-->[com.huawei.hms:ml-computer-card-bcr-nodynamic-model:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\5eeb37a3968bd521cfb0a5b199fcce86\transformed\jetified-ml-computer-card-bcr-nodynamic-model-2.0.3.301\AndroidManifest.xml:16:13-89
+387            android:value="ml-computer-card-bcr-model:2.0.3.301" />
+387-->[com.huawei.hms:ml-computer-card-bcr-nodynamic-model:2.0.3.301] C:\Users\sarfo\.gradle\caches\transforms-3\5eeb37a3968bd521cfb0a5b199fcce86\transformed\jetified-ml-computer-card-bcr-nodynamic-model-2.0.3.301\AndroidManifest.xml:17:13-65
+388        <meta-data
+388-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\sarfo\.gradle\caches\transforms-3\45539b9a43797e29ffc1044f2c0652f3\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:12:9-14:54
+389            android:name="com.huawei.hms.client.service.name:dynamic-api"
+389-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\sarfo\.gradle\caches\transforms-3\45539b9a43797e29ffc1044f2c0652f3\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:13:13-74
+390            android:value="dynamic-api:1.0.13.303" />
+390-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\sarfo\.gradle\caches\transforms-3\45539b9a43797e29ffc1044f2c0652f3\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:14:13-51
+391        <meta-data
+391-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\sarfo\.gradle\caches\transforms-3\45539b9a43797e29ffc1044f2c0652f3\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:15:9-17:33
+392            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+392-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\sarfo\.gradle\caches\transforms-3\45539b9a43797e29ffc1044f2c0652f3\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:16:13-96
+393            android:value="2" />
+393-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\sarfo\.gradle\caches\transforms-3\45539b9a43797e29ffc1044f2c0652f3\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:17:13-30
+394        <meta-data
+394-->[com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\4cf0f5780c48b9db38954fc1364eaa5d\transformed\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:12:9-14:66
+395            android:name="com.huawei.hms.client.service.name:ml-computer-camera-inner"
+395-->[com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\4cf0f5780c48b9db38954fc1364eaa5d\transformed\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:13:13-87
+396            android:value="ml-computer-camera-inner:2.0.3.300" />
+396-->[com.huawei.hms:ml-computer-camera-inner:2.0.3.300] C:\Users\sarfo\.gradle\caches\transforms-3\4cf0f5780c48b9db38954fc1364eaa5d\transformed\jetified-ml-computer-camera-inner-2.0.3.300\AndroidManifest.xml:14:13-63
+397        <meta-data
+397-->[com.huawei.hms:ml-computer-ha-inner:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\2c82bf2d29cced26a61c23da5c0348a7\transformed\jetified-ml-computer-ha-inner-2.0.5.300\AndroidManifest.xml:14:9-16:62
+398            android:name="com.huawei.hms.client.service.name:ml-computer-ha-inner"
+398-->[com.huawei.hms:ml-computer-ha-inner:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\2c82bf2d29cced26a61c23da5c0348a7\transformed\jetified-ml-computer-ha-inner-2.0.5.300\AndroidManifest.xml:15:13-83
+399            android:value="ml-computer-ha-inner:2.0.5.300" />
+399-->[com.huawei.hms:ml-computer-ha-inner:2.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\2c82bf2d29cced26a61c23da5c0348a7\transformed\jetified-ml-computer-ha-inner-2.0.5.300\AndroidManifest.xml:16:13-59
+400
+401        <activity
+401-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:21:9-29:20
+402            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+402-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:22:13-84
+403            android:configChanges="orientation|screenSize"
+403-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:23:13-59
+404            android:exported="false"
+404-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:24:13-37
+405            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+405-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:25:13-72
+406            <meta-data
+406-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:26:13-28:88
+407                android:name="hwc-theme"
+407-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:27:17-41
+408                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+408-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:28:17-85
+409        </activity>
+410        <activity
+410-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:30:9-38:20
+411            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+411-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:31:13-84
+412            android:configChanges="orientation|keyboardHidden|screenSize"
+412-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:32:13-74
+413            android:exported="false"
+413-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:33:13-37
+414            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+414-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:34:13-72
+415            <meta-data
+415-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:26:13-28:88
+416                android:name="hwc-theme"
+416-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:27:17-41
+417                android:value="androidhwext:style/Theme.Emui.Translucent" />
+417-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:28:17-85
+418        </activity>
+419
+420        <provider
+420-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:40:9-45:20
+421            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+421-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:41:13-83
+422            android:authorities="ttstestsarfojoe.huawei.updateSdk.fileProvider"
+422-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:42:13-74
+423            android:exported="false"
+423-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:43:13-37
+424            android:grantUriPermissions="true" >
+424-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:44:13-47
+425        </provider>
+426
+427        <activity
+427-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:10:9-21:20
+428            android:name="com.huawei.hms.activity.BridgeActivity"
+428-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:11:13-66
+429            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+429-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:12:13-131
+430            android:excludeFromRecents="true"
+430-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:13:13-46
+431            android:exported="false"
+431-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:14:13-37
+432            android:hardwareAccelerated="true"
+432-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:15:13-47
+433            android:screenOrientation="behind"
+433-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:16:13-47
+434            android:theme="@android:style/Theme.Translucent" >
+434-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:17:13-61
+435            <meta-data
+435-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:26:13-28:88
+436                android:name="hwc-theme"
+436-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:27:17-41
+437                android:value="androidhwext:style/Theme.Emui.Translucent" />
+437-->[com.huawei.hms:update:2.0.7.302] C:\Users\sarfo\.gradle\caches\transforms-3\df7aea5f3518d90a49095af834b17928\transformed\jetified-update-2.0.7.302\AndroidManifest.xml:28:17-85
+438        </activity>
+439        <activity
+439-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:22:9-26:20
+440            android:name="com.huawei.hms.activity.EnableServiceActivity"
+440-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:23:13-73
+441            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+441-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:24:13-106
+442            android:exported="false" >
+442-->[com.huawei.hms:ui:5.0.5.300] C:\Users\sarfo\.gradle\caches\transforms-3\97a4bee65e145729bdf52d4022ed0ce1\transformed\jetified-ui-5.0.5.300\AndroidManifest.xml:25:13-37
+443        </activity>
+444    </application>
+445
+446</manifest>

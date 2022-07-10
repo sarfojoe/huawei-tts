@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ml_pvs_load_error" priority="translator">"Yuklanmadi"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"Internetga ulanmagansiz"</string>
+    <string name="ml_pvs_net_set" priority="translator">"Tarmoq sozlamalari"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"Xotira yoki Kamera ruxsati berilmagan."</string>
+    <string name="ml_pvs_service_error" priority="translator">"Serverga ulanilmadi"</string>
+</resources>

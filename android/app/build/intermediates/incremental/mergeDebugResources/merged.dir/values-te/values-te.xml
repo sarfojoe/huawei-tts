@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="state_listening">
+        <item priority="translator">"వింటోంది…"</item>
+    </string-array>
+    <string-array name="state_nonetwork">
+        <item priority="translator">"ఇంటర్నెట్ కనెక్షన్ లేదు"</item>
+        <item priority="translator">"ఇంటర్నెట్ కనెక్షన్ బాగోలేదు"</item>
+        <item priority="translator">"మీ నెట్‌వర్క్‌ను తనిఖీ చేయండి"</item>
+        <item priority="translator">"మీ నెట్‌వర్క్ సెట్టింగ్‌లను తనిఖీ చేయండి"</item>
+    </string-array>
+    <string-array name="state_nosound">
+        <item priority="translator">"దయచేసి ఏదైనా చెప్పండి"</item>
+        <item priority="translator">"అర్థం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి."</item>
+        <item priority="translator">"కొంచెం దగ్గరిగా వెళ్లి, మళ్లీ ప్రయత్నించండి"</item>
+        <item priority="translator">"దయచేసి మైక్‌లో మాట్లాడండి"</item>
+    </string-array>
+    <string-array name="state_nounderstand">
+        <item priority="translator">"క్షమించండి, నాకు సరిగ్గా అర్థం కాలేదు"</item>
+        <item priority="translator">"క్షమించండి, నేను అర్థం చేసుకోలేకపోయాను"</item>
+        <item priority="translator">"నాకు సరిగ్గా అర్థం కాలేదు"</item>
+        <item priority="translator">"క్షమించండి, నాకు అర్థం కాలేదు"</item>
+    </string-array>
+    <string-array name="state_service_unavailable">
+        <item priority="translator">"సేవ అందుబాటులో లేదు"</item>
+    </string-array>
+    <plurals name="mlkit_bcr_image_piece">
+    <item priority="translator" quantity="one">"%d"</item>
+    <item priority="translator" quantity="other">"%d"</item>
+</plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేస్తుంది"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేస్తుంది"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"పూర్తయింది"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"అన్నీ చూడండి"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"యాప్‌ను ఎంచుకోండి"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ఆఫ్"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ఆన్"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"స్పేస్"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"వెతకండి…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ప్రశ్నను తీసివేస్తుంది"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"శోధన ప్రశ్న"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"సెర్చ్"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ప్రశ్నని సమర్పిస్తుంది"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"వాయిస్ శోధన"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"వీరితో షేర్ చేస్తుంది"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>తో షేర్ చేస్తుంది"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"కుదిస్తుంది"</string>
+    <string name="hms_abort" priority="translator">"ఆపివేయి"</string>
+    <string name="hms_abort_message" priority="translator">"డౌన్‌లోడ్ చేయడాన్ని ఆపివేయాలా?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Coreను ఉపయోగించడం సాధ్యం కాదు. దయచేసి ఆప్టిమైజర్ (ఫోన్ నిర్వాహికి)ని లాంచ్ చేసి లేదా సెట్టింగ్‌లకు వెళ్లి, %2$s కోసం అన్ని అనుమతులను (స్వీయ లాంచ్ మరియు ద్వితీయ లాంచ్‌లతో సహా) ప్రారంభించి, మళ్లీ ప్రయత్నించండి."</string>
+    <string name="hms_cancel" priority="translator">"రద్దు చేయి"</string>
+    <string name="hms_check_failure" priority="translator">"అప్‌డేట్‌ల కోసం తనిఖీ చేయడం విఫలమైంది."</string>
+    <string name="hms_checking" priority="translator">"అప్‌డేట్‌ల కోసం తనిఖీ చేస్తోంది..."</string>
+    <string name="hms_confirm" priority="translator">"సరే"</string>
+    <string name="hms_download_failure" priority="translator">"HMS Core ప్యాకేజీని డౌన్‌లోడ్ చేయడం విఫలమైంది."</string>
+    <string name="hms_download_no_space" priority="translator">"తగినంత స్థలం లేదు. డౌన్‌లోడ్ చేయడం పూర్తి కాలేదు."</string>
+    <string name="hms_download_retry" priority="translator">"డౌన్‌లోడ్ చేయడం విఫలమైంది. మళ్లీ ప్రయత్నించాలా?"</string>
+    <string name="hms_downloading_loading" priority="LT">"డౌన్‌లోడ్ చేస్తోంది"</string>
+    <string name="hms_install" priority="translator">"ఇన్‌స్టాల్ చేయి"</string>
+    <string name="hms_install_message" priority="translator">"ఈ ఫీచర్‌ని ఉపయోగించడానికి HMS Coreను తప్పక ఇన్‌స్టాల్ చేయాలి. ఇన్‌స్టాల్ చేయాలా?"</string>
+    <string name="hms_retry" priority="translator">"మళ్లీ ప్రయత్నించు"</string>
+    <string name="hms_update" priority="translator">"అప్‌డేట్ చేయండి"</string>
+    <string name="hms_update_continue" priority="LT">"డౌన్‌లోడ్ చేయి"</string>
+    <string name="hms_update_message" priority="translator">"ఈ ఫీచర్‌ని ఉపయోగించడానికి HMS Core తాజా వెర్షన్‌కి అప్‌డేట్ చేయండి. ఇప్పుడే అప్‌డేట్ చేయాలా?"</string>
+    <string name="hms_update_message_new" priority="translator">"ఈ సేవ కోసం కింది ఉన్న అప్లికేషన్ యొక్క తాజా వెర్షన్ అవసరం:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Wi-Fi కనెక్షన్ లేదు. మొబైల్ డేటాని ఉపయోగించి డౌన్‌లోడ్ చేయాలా?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="ml_pvs_load_error" priority="translator">"లోడ్ చేయడం విఫలమైంది"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"ఇంటర్నెట్ కనెక్షన్ లేదు"</string>
+    <string name="ml_pvs_net_set" priority="translator">"నెట్‌వర్క్ సెట్టింగ్‌లు"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"నిల్వ లేదా కెమెరా అనుమతి మంజూరు చేయబడలేదు."</string>
+    <string name="ml_pvs_service_error" priority="translator">"సర్వర్‌కు కనెక్ట్ చేయడం సాధ్యం కాలేదు"</string>
+    <string name="mlkit_asr_machine_learning_kit" priority="translator">"ML Kit ఆధారితం"</string>
+    <string name="mlkit_bcr_all_media" priority="translator">"అన్ని ఫోటోలు"</string>
+    <string name="mlkit_bcr_card_back_tips" priority="translator">"కార్డ్ యొక్క వెనుక భాగాన్ని ఫ్రేమ్‌తో సర్దుబాటు చేయండి"</string>
+    <string name="mlkit_bcr_card_front_tips" priority="translator">"కార్డ్ యొక్క ముందు భాగాన్ని ఫ్రేమ్‌తో సర్దుబాటు చేయండి"</string>
+    <string name="mlkit_bcr_permission_tip" priority="translator">"నిల్వ లేదా కెమెరాను యాక్సెస్ చేయడానికి అనుమతించబడలేదు."</string>
+    <string name="mlkit_bcr_scan_failure" priority="translator">"కార్డ్ కంటెంట్‌ను చదవడం సాధ్యం కాదు."</string>
+    <string name="mlkit_bcr_scanner_image" priority="translator">"స్కాన్ చేస్తోంది…"</string>
+    <string name="mlkit_bcr_take_photo" priority="translator">"ఫోటో తీయండి"</string>
+    <string name="mlkit_bcr_tap_continue" priority="translator">"స్కాన్ చేయడం పునఃప్రారంభించడానికి నొక్కండి"</string>
+    <string name="mlkit_bcr_this_month" priority="translator">"ఈ నెల"</string>
+    <string name="mlkit_bcr_this_week" priority="translator">"ఈ వారం"</string>
+    <string name="mlkit_bcr_today" priority="translator">"ఈ రోజు"</string>
+    <string name="mlkit_bcr_turn_on_light" priority="translator">"మరింత కాంతి కోసం తాకండి"</string>
+    <string name="mlkit_liveness_detect_backIcon" priority="translator">"వెనుకకు వెళ్లు"</string>
+    <string name="mlkit_liveness_detect_dialogtips" priority="translator">"ఈ ఫీచర్ స్ప్లిట్-స్క్రీన్ మోడ్‌లో అందుబాటులో ఉండదు. దయచేసి పూర్తి స్క్రీన్‌కు మారండి."</string>
+    <string name="mlkit_liveness_detect_dialogtipsnext" priority="translator">"సరే"</string>
+    <string name="mlkit_liveness_detect_identifying" priority="translator">"గుర్తిస్తోంది…"</string>
+    <string name="mlkit_liveness_detect_name" priority="LT">ముఖం గుర్తింపు</string>
+    <string name="mlkit_liveness_detect_noface_is_detected" priority="translator">"ముఖం గుర్తించబడలేదు"</string>
+    <string name="mlkit_liveness_detect_tips" priority="translator">మీ ముఖాన్ని ఫ్రేమ్ లోపల ఉంచండి. మీరు బాగా వెలుతురు గల ప్రాంతంలో ఉన్నట్లు నిర్ధారించుకోండి.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"సెర్చ్"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_dl_installing" priority="translator">"AppGalleryని డౌన్‌లోడ్ చేస్తోంది"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"ఇన్‌స్టాల్ చేయి"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%sను డౌన్‌లోడ్ చేస్తోంది…"</string>
+    <string name="upsdk_app_size" priority="translator">"పరిమాణం"</string>
+    <string name="upsdk_app_version" priority="translator">"వెర్షన్"</string>
+    <string name="upsdk_appstore_install" priority="translator">"ఈ అప్లికేషన్‌ను అప్‌డేట్ చేయడానికి %s అవసరం. ఇప్పుడే ఇన్‌స్టాల్ చేయాలా?"</string>
+    <string name="upsdk_cancel" priority="translator">"రద్దు చేయి"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"అప్‌డేట్‌ల కోసం తనిఖీ చేస్తోంది..."</string>
+    <string name="upsdk_choice_update" priority="translator">"అప్‌డేట్ అందుబాటులో ఉంది. దయచేసి తాజా వెర్షన్‌ను డౌన్‌లోడ్ చేసి, ఇన్‌స్టాల్ చేయండి."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"సర్వర్‌కు కనెక్ట్ చేయడం సాధ్యం కాదు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి."</string>
+    <string name="upsdk_detail" priority="translator">"వివరాలు"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"సమాచారాన్ని తిరిగి పొందడం సాధ్యం కాలేదు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"ఇంటర్నెట్ కనెక్షన్ లేదు. దయచేసి మీ నెట్‌వర్క్ సెట్టింగ్‌లను తనిఖీ చేయండి."</string>
+    <string name="upsdk_ota_app_name" priority="translator">"అప్లికేషన్"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"తర్వాత"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="translator">"నిష్క్రమించు"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"అప్‌డేట్"</string>
+    <string name="upsdk_ota_title" priority="translator">"కొత్త వెర్షన్"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"ఇన్‌స్టాలేషన్‌ని రద్దు చేయాలా?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"ఇన్‌స్టాలేషన్ విఫలమైంది."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"అవును"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"మీరు తాజా సంస్కరణను కలిగి ఉన్నారు."</string>
+</resources>

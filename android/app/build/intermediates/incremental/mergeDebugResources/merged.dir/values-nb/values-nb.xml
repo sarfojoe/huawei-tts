@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="state_listening">
+        <item priority="translator">"Hører …"</item>
+    </string-array>
+    <string-array name="state_nonetwork">
+        <item priority="translator">"Ingen Internett-forbindelse"</item>
+        <item priority="translator">"Dårlig Internett-forbindelse"</item>
+        <item priority="translator">"Kontroller nettverket ditt"</item>
+        <item priority="translator">"Kontroller dine nettverksinnstillinger"</item>
+    </string-array>
+    <string-array name="state_nosound">
+        <item priority="translator">"Si noe"</item>
+        <item priority="translator">"Registrerte ikke kommando. Prøv på nytt."</item>
+        <item priority="translator">"Kom litt nærmere og prøv igjen"</item>
+        <item priority="translator">"Vennligst snakk inn i mikrofonen"</item>
+    </string-array>
+    <string-array name="state_nounderstand">
+        <item priority="translator">"Beklager, jeg forstår ikke helt"</item>
+        <item priority="translator">"Beklager, det der hørte jeg ikke"</item>
+        <item priority="translator">"Det hørte jeg ikke helt"</item>
+        <item priority="translator">"Beklager, jeg forstår ikke"</item>
+    </string-array>
+    <string-array name="state_service_unavailable">
+        <item priority="translator">"Tjeneste utilgjengelig"</item>
+    </string-array>
+    <plurals name="mlkit_bcr_image_piece">
+    <item priority="translator" quantity="one">"%d"</item>
+    <item priority="translator" quantity="other">"%d"</item>
+</plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Naviger hjem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Gå opp"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Flere alternativer"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Ferdig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Velg en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"slett"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funksjon+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"mellomrom"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Søk"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Slett søket"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Søkeord"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Søk"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Utfør søket"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Talesøk"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="hms_abort" priority="translator">"Stopp"</string>
+    <string name="hms_abort_message" priority="translator">"Stanse nedlastingen?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s kan ikke bruke HMS Core. Start Optimalisator (Telefon Administrator) eller gå til Innstillinger, aktiver alle tillatelser for %2$s (inkludert automatisk start og sekundær start), og prøv igjen."</string>
+    <string name="hms_cancel" priority="translator">"Avbryt"</string>
+    <string name="hms_check_failure" priority="translator">"Kunne ikke se etter oppdateringer."</string>
+    <string name="hms_checking" priority="translator">"Ser etter oppdateringer..."</string>
+    <string name="hms_confirm" priority="translator">"OK"</string>
+    <string name="hms_download_failure" priority="translator">"Kunne ikke laste ned HMS Core-pakken."</string>
+    <string name="hms_download_no_space" priority="translator">"Ikke nok ledig plass. Nedlastingen kan ikke fullføres."</string>
+    <string name="hms_download_retry" priority="translator">"Nedlastingen mislyktes. Prøve på nytt?"</string>
+    <string name="hms_downloading_loading" priority="LT">"Laster ned"</string>
+    <string name="hms_install" priority="translator">"Installer"</string>
+    <string name="hms_install_message" priority="translator">"HMS Core må være installert for å bruke denne tjenesten. Vil du installere?"</string>
+    <string name="hms_retry" priority="translator">"Prøv igjen"</string>
+    <string name="hms_update" priority="translator">"Oppdater"</string>
+    <string name="hms_update_continue" priority="LT">"Last ned"</string>
+    <string name="hms_update_message" priority="translator">"Du må oppdatere til nyeste versjon av HMS Core for å kunne bruke denne funksjonen. Oppdatere nå?"</string>
+    <string name="hms_update_message_new" priority="LT">"Denne tjenesten krever den nyeste versjonen av følgende apper:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"Ingen Wi-Fi-forbindelse. Laste ned med mobildata?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="ml_pvs_load_error" priority="translator">"Innlasting mislyktes"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"Ingen Internett-forbindelse"</string>
+    <string name="ml_pvs_net_set" priority="translator">"Nettverksinnstillinger"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"Lagring- eller Kamera-tillatelsen er ikke gitt."</string>
+    <string name="ml_pvs_service_error" priority="translator">"Kan ikke koble til serveren"</string>
+    <string name="mlkit_asr_machine_learning_kit" priority="translator">"Drevet av ML Kit"</string>
+    <string name="mlkit_bcr_all_media" priority="translator">"Alle bilder"</string>
+    <string name="mlkit_bcr_card_back_tips" priority="translator">"Juster baksiden av kortet i rammen"</string>
+    <string name="mlkit_bcr_card_front_tips" priority="translator">"Juster fremsiden av kortet i rammen"</string>
+    <string name="mlkit_bcr_permission_tip" priority="translator">"Har ikke tilgang til lagring eller kamera."</string>
+    <string name="mlkit_bcr_scan_failure" priority="translator">"Kan ikke lese kortinnhold."</string>
+    <string name="mlkit_bcr_scanner_image" priority="translator">"Skanner …"</string>
+    <string name="mlkit_bcr_take_photo" priority="translator">"Ta bilde"</string>
+    <string name="mlkit_bcr_tap_continue" priority="translator">"Berør for å fortsette skanning"</string>
+    <string name="mlkit_bcr_this_month" priority="translator">"Denne måneden"</string>
+    <string name="mlkit_bcr_this_week" priority="translator">"Denne uken"</string>
+    <string name="mlkit_bcr_today" priority="translator">"I dag"</string>
+    <string name="mlkit_bcr_turn_on_light" priority="translator">"Berør for mer lys"</string>
+    <string name="mlkit_liveness_detect_backIcon" priority="translator">"Gå tilbake"</string>
+    <string name="mlkit_liveness_detect_dialogtips" priority="translator">"Denne funksjonen er ikke tilgjengelig i delt-skjermmodus. Byttet til fullskjerm."</string>
+    <string name="mlkit_liveness_detect_dialogtipsnext" priority="translator">"OK"</string>
+    <string name="mlkit_liveness_detect_identifying" priority="translator">"Identifiserer …"</string>
+    <string name="mlkit_liveness_detect_name" priority="LT">Ansiktsdeteksjon</string>
+    <string name="mlkit_liveness_detect_noface_is_detected" priority="translator">"Ingen ansikt oppdaget"</string>
+    <string name="mlkit_liveness_detect_tips" priority="translator">Posisjoner ansiktet ditt i rammen. Sørg for at du er i et godt opplyst område.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Søk"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_dl_installing" priority="LT">"Laster ned AppGallery"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"Installer"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"Laster ned %s …"</string>
+    <string name="upsdk_app_size" priority="translator">"Størrelse"</string>
+    <string name="upsdk_app_version" priority="translator">"Versjon"</string>
+    <string name="upsdk_appstore_install" priority="translator">"%s kreves for å kunne oppdatere denne appen. Installer nå?"</string>
+    <string name="upsdk_cancel" priority="translator">"Avbryt"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"Ser etter oppdateringer …"</string>
+    <string name="upsdk_choice_update" priority="LT">"Oppdatering tilgjengelig. Last ned og installer den nyeste versjonen."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"Kan ikke koble til serveren. Prøv igjen senere."</string>
+    <string name="upsdk_detail" priority="translator">"Detaljer"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"Kunne ikke hente informasjon. Prøv igjen senere."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"Ingen Internett-forbindelse. Kontroller nettverksinnstillingene."</string>
+    <string name="upsdk_ota_app_name" priority="LT">"App"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"Senere"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="LT">"Avslutt"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"Oppdater"</string>
+    <string name="upsdk_ota_title" priority="translator">"Ny versjon"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"Avbryt installasjonen?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"Installasjon mislyktes."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"Ja"</string>
+    <string name="upsdk_update_check_no_new_version" priority="LT">"Du bruker den nyeste versjonen."</string>
+</resources>

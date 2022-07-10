@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-268995409/android.tts.react-native-hms-ml.iml" filepath="$PROJECT_DIR$/.idea/modules/-268995409/android.tts.react-native-hms-ml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-656917220/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/-656917220/react-native-gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tts.iml" filepath="$PROJECT_DIR$/.idea/modules/tts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/tts.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/tts.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-268995409/tts.hmscore_react-native-hms-ml.iml" filepath="$PROJECT_DIR$/.idea/modules/-268995409/tts.hmscore_react-native-hms-ml.iml" />
+    </modules>
+  </component>
+</project>

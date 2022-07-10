@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="state_listening">
+        <item priority="translator">"ئاڭلاۋاتىمەن..."</item>
+    </string-array>
+    <string-array name="state_nonetwork">
+        <item priority="translator">"بۇ تور ئىشلىمەيدۇ"</item>
+        <item priority="translator">"تور سىگنالى ناچار"</item>
+        <item priority="translator">"تورنى تەكشۈرۈڭ"</item>
+        <item priority="translator">"تور تەڭشىكىنى تەكشۈرۈڭ"</item>
+    </string-array>
+    <string-array name="state_nosound">
+        <item priority="translator">"سۆزلەڭ..."</item>
+        <item priority="translator">"ئاڭلىمىدىم، قايتا دەڭ..."</item>
+        <item priority="translator">"يېقىنراق تۇرۇپ سۆزلەڭ"</item>
+        <item priority="translator">"مىكروفونغا ئۇدۇل تۇرۇپ سۆزلەڭ"</item>
+    </string-array>
+    <string-array name="state_nounderstand">
+        <item priority="translator">"ئانچە چۈشەنمىدىم"</item>
+        <item priority="translator">"ئېنىق ئاڭلىمىدىم"</item>
+        <item priority="translator">"ئېنىقراق سۆزلەڭ"</item>
+        <item priority="translator">"كەچۈرۈڭ، چۈشەنمىدىم"</item>
+    </string-array>
+    <string-array name="state_service_unavailable">
+        <item priority="translator">"مۇلازىمەت ئىشلىمەيدۇ"</item>
+    </string-array>
+    <plurals name="mlkit_bcr_image_piece">
+        <item priority="translator" quantity="other">"%d"</item>
+    </plurals>
+    <string name="hms_abort" priority="translator">"توختىتىش"</string>
+    <string name="hms_abort_message" priority="translator">"چۈشۈرۈشنى توختىتامسىز؟"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"نۆۋەتتە %1$s مۇلازىمىتى HMS Core ئىشلىتەلمەيدۇ. باشقۇرغۇچ ياكى تەڭشەكتە %2$s ئۈچۈن بارلىق ئىجازەتنى ئېچىڭ («ئۆزلۈكىدىن قوزغىلىش» ۋە «باغلانما قوزغىتىش» مۇ شۇنىڭ ئىچىدە)."</string>
+    <string name="hms_cancel" priority="LT">"بىكار قىلىش"</string>
+    <string name="hms_check_failure" priority="translator">"كەچۈرۈڭ، HMS Core يېڭىلانمىسى تەكشۈرۈلمىدى."</string>
+    <string name="hms_checking" priority="translator">"يېڭى نەشرىنى تەكشۈرۈۋاتىدۇ..."</string>
+    <string name="hms_confirm" priority="translator">"بىلدىم"</string>
+    <string name="hms_download_failure" priority="translator">"كەچۈرۈڭ، HMS Core قاچىلاش بوغچىسى چۈشمىدى."</string>
+    <string name="hms_download_no_space" priority="translator">"بوشلۇق يېتەرسىز، چۈشمەيدۇ."</string>
+    <string name="hms_download_retry" priority="translator">"كەچۈرۈڭ، HMS Core چۈشمىدى، قايتا سىنامسىز؟"</string>
+    <string name="hms_downloading_loading" priority="LT">"يۈكلەۋاتىدۇ"</string>
+    <string name="hms_install" priority="LT">"قاچىلاش"</string>
+    <string name="hms_install_message" priority="translator">"ئۈسكۈنىگە HMS Core قاچىلانمىغان، بۇ ئىقتىدار شۇنى قاچىلىغاندىن كېيىن ئىشلەيدۇ. قاچىلامسىز؟"</string>
+    <string name="hms_retry" priority="translator">"قايتا سىناش"</string>
+    <string name="hms_update" priority="translator">"يېڭلاش"</string>
+    <string name="hms_update_continue" priority="LT">"داۋاملىق چۈشۈرۈش"</string>
+    <string name="hms_update_message" priority="translator">"ئۈسكۈنىدىكى HMS Core نىڭ نەشرى بەك تۆۋەن، يېڭىلاش كېرەك. يېڭىلامسىز؟"</string>
+    <string name="hms_update_message_new" priority="translator">"بۇ مۇلازىمەتنى ئىشلىتىش ئۈچۈن تۆۋەندىكى ئەپنىڭ ئەڭ يېڭى نەشرىنى قاچىلاش كېرەك: \n\n·%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"نۆۋەتتىكىسى Wi-Fi تورى ئەمەس. چۈشۈرۈشنى داۋاملاشتۇرامسىز؟"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="ml_pvs_load_error" priority="translator">"يۈكلەنمىدى"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"تور ئۇلانمىدى"</string>
+    <string name="ml_pvs_net_set" priority="translator">"تور تەڭشىكى"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"نۆۋەتتە بوشلۇق ياكى كامېرا ئىجازىتى ئېتىك"</string>
+    <string name="ml_pvs_service_error" priority="translator">"مۇلازىمىتېرغا ئۇلانمىدى"</string>
+    <string name="mlkit_asr_machine_learning_kit" priority="translator">"ماشىنا ئۆگىنىمى تەمىنلىگەن"</string>
+    <string name="mlkit_bcr_all_media" priority="translator">"بارلىق رەسىم"</string>
+    <string name="mlkit_bcr_card_back_tips" priority="translator">"بانكا كارتىسىنىڭ ئارقىنى رامكىغا توغرىلاڭ"</string>
+    <string name="mlkit_bcr_card_front_tips" priority="translator">"بانكا كارتىسىنىڭ ئالدىنى رامكىغا توغرىلاڭ"</string>
+    <string name="mlkit_bcr_permission_tip" priority="translator">"نۆۋەتتە ساقلاش ياكى كامېرا ئىجازىتى بېرىلمىگەن"</string>
+    <string name="mlkit_bcr_scan_failure" priority="translator">"بانكا كارتىسى تونۇلمىدى"</string>
+    <string name="mlkit_bcr_scanner_image" priority="translator">"رەسىم سايىلىنىۋاتىدۇ..."</string>
+    <string name="mlkit_bcr_take_photo" priority="translator">"رەسىم تارتىش"</string>
+    <string name="mlkit_bcr_tap_continue" priority="translator">"چەكسىڭىز سايىلەش ئەسلىگە كېلىدۇ"</string>
+    <string name="mlkit_bcr_this_month" priority="translator">"بۇ ئاي"</string>
+    <string name="mlkit_bcr_this_week" priority="translator">"بۇ ھەپتە"</string>
+    <string name="mlkit_bcr_today" priority="translator">"بۈگۈن"</string>
+    <string name="mlkit_bcr_turn_on_light" priority="translator">"يورۇتۇش"</string>
+    <string name="mlkit_liveness_detect_backIcon" priority="translator">"قايتىش"</string>
+    <string name="mlkit_liveness_detect_dialogtips" priority="translator">"بۇ بەت ئېكران بۆلۈشنى قوللىمايدۇ، تولۇق ئېكرانلىق ھالەتكە ئالماشتۇرۇڭ."</string>
+    <string name="mlkit_liveness_detect_dialogtipsnext" priority="translator">"بىلدىم"</string>
+    <string name="mlkit_liveness_detect_identifying" priority="translator">"تونۇۋاتىدۇ..."</string>
+    <string name="mlkit_liveness_detect_name" priority="translator">يۈز تونۇش</string>
+    <string name="mlkit_liveness_detect_noface_is_detected" priority="translator">"يۈز بايقالمىدى"</string>
+    <string name="mlkit_liveness_detect_tips" priority="translator">يۈزىڭىزنى رامكىغا توغرىلاڭ، مۇھىت يورۇق بولسۇن</string>
+    <string name="upsdk_app_dl_installing" priority="translator">"خۇاۋېي ئەپ بازىرى چۈشۈۋاتىدۇ"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"قاچىلاش"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"\u200f%s چۈشۈۋاتىدۇ..."</string>
+    <string name="upsdk_app_size" priority="LT">"سىغىم"</string>
+    <string name="upsdk_app_version" priority="LT">"نەشرى"</string>
+    <string name="upsdk_appstore_install" priority="translator">"بۇ ئەپنى يېڭىلاش ئۈچۈن %s كېرەك. قاچىلامسىز؟"</string>
+    <string name="upsdk_cancel" priority="translator">"بىكار قىلىش"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"يېڭىلانما تەكشۈرۈۋاتىدۇ..."</string>
+    <string name="upsdk_choice_update" priority="translator">"ئىشلەتكىلى بولىدىغان يېڭىلانما بار، تېز دەرىجىسىنى ئۆستۈرۈۋېلىڭ."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"مۇلازىمىتېرغا ئۇلانمىدى، سەل تۇرۇپ قايتا سىناڭ"</string>
+    <string name="upsdk_detail" priority="translator">"تەپسىلات"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"ئۇچۇرغا ئېرىشەلمىدى، سەل تۇرۇپ قايتا سىناڭ"</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"تور ئۇلانمىدى، تور تەڭشىكىنى تەكشۈرۈڭ"</string>
+    <string name="upsdk_ota_app_name" priority="translator">"ئەپ"</string>
+    <string name="upsdk_ota_cancel" priority="LT">"كېيىنچە"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="translator">"ئەپتىن چېكىنىش"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="LT">"يېڭىلاش"</string>
+    <string name="upsdk_ota_title" priority="translator">"يېڭى نەشرى بايقالدى"</string>
+    <string name="upsdk_storage_utils" priority="translator">"%1$sMB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"قاچىلاشنى بىكار قىلامسىز؟"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"قاچىلانمىدى"</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"جەزملەش"</string>
+    <string name="upsdk_update_check_no_new_version" priority="LT">"بۇ ئەڭ يېڭى نەشرى"</string>
+</resources>

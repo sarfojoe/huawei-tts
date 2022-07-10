@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="state_listening">
+        <item priority="translator">"સાંભળે છે…"</item>
+    </string-array>
+    <string-array name="state_nonetwork">
+        <item priority="translator">"કોઈ ઇન્ટરનેટ કનેક્શન નથી"</item>
+        <item priority="translator">"નબળું ઇન્ટરનેટ કનેક્શન"</item>
+        <item priority="translator">"તમારું નેટવર્ક તપાસો"</item>
+        <item priority="translator">"તમારી નેટવર્ક સેટિંગ્સ તપાસો"</item>
+    </string-array>
+    <string-array name="state_nosound">
+        <item priority="translator">"કૃપા કરીને કંઈક કહો"</item>
+        <item priority="translator">"તે સમજાયું નહીં. કૃપા કરીને ફરી પ્રયાસ કરો."</item>
+        <item priority="translator">"થોડા વધુ નજીક જઈને ફરી પ્રયાસ કરો"</item>
+        <item priority="translator">"કૃપા કરીને માઇકમાં બોલો"</item>
+    </string-array>
+    <string-array name="state_nounderstand">
+        <item priority="translator">"માફ કરશો, મને ખાસ સમજાયું નથી"</item>
+        <item priority="translator">"માફ કરશો, મને તે સમજાયું નહીં"</item>
+        <item priority="translator">"મને તે ખાસ સમજાયું નહીં"</item>
+        <item priority="translator">"માફ કરશો, મને સમજાયું નથી"</item>
+    </string-array>
+    <string-array name="state_service_unavailable">
+        <item priority="translator">"સેવા ઉપલબ્ધ નથી"</item>
+    </string-array>
+    <plurals name="mlkit_bcr_image_piece">
+    <item priority="translator" quantity="one">"%d"</item>
+    <item priority="translator" quantity="other">"%d"</item>
+</plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ઘરનો રસ્તો બતાવો"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ઉપર નૅવિગેટ કરો"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"વધુ વિકલ્પો"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"થઈ ગયું"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"બધી જુઓ"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"ઍપ્લિકેશન પસંદ કરો"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"બંધ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ચાલુ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"શોધો…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ક્વેરી સાફ કરો"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"શોધ ક્વેરી"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"શોધો"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ક્વેરી સબમિટ કરો"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"વૉઇસ શોધ"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"આની સાથે શેર કરો"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>ની સાથે શેર કરો"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"સંકુચિત કરો"</string>
+    <string name="hms_abort" priority="translator">"રોકો"</string>
+    <string name="hms_abort_message" priority="translator">"ડાઉનલોડ કરવાનું રોકીએ?"</string>
+    <string name="hms_bindfaildlg_message" priority="translator">"%1$s HMS Core ઉપયોગ કરવા અસમર્થ છે. કૃપા કરીને ઑપ્ટિમાઈઝર (ફોન મેનેજર) લોંચ કરો અથવા સેટિંગ્સ પર જાઓ, %2$s માટે તમામ પરવાનગીઓ (સ્વતઃ-લોન્ચ કરો અને સેકંડરી લોંચ સહિત) સક્ષમ કરો અને ફરીથી પ્રયાસ કરો."</string>
+    <string name="hms_cancel" priority="translator">"રદ કરો"</string>
+    <string name="hms_check_failure" priority="translator">"અપડેટ્સ માટે તપાસ કરવામાં નિષ્ફળ."</string>
+    <string name="hms_checking" priority="translator">"અપડેટ માટે તપાસી રહ્યું છે..."</string>
+    <string name="hms_confirm" priority="translator">"ઑકે"</string>
+    <string name="hms_download_failure" priority="translator">"HMS Core નું પૅકેજ ડાઉનલોડ કરવામાં નિષ્ફળ."</string>
+    <string name="hms_download_no_space" priority="translator">"પુરતા પ્રમાણમાં ખાલી જગ્યા નથી. ડાઉનલોડ પૂર્ણ કરી શકાતુ નથી."</string>
+    <string name="hms_download_retry" priority="translator">"ડાઉનલોડ નિષ્ફળ. ફરીથી પ્રયત્ન કરવો છે?"</string>
+    <string name="hms_downloading_loading" priority="LT">"ડાઉનલોડ થઇ રહ્યું છે"</string>
+    <string name="hms_install" priority="translator">"ઇન્સ્ટોલ કરો"</string>
+    <string name="hms_install_message" priority="translator">"આ સુવિધાનો ઉપયોગ કરવા માટે HMS Core ઇન્સ્ટોલ કરવી અનિવાર્ય છે. ઇન્સ્ટોલ કરવું છે?"</string>
+    <string name="hms_retry" priority="translator">"પુન:પ્રયાસ કરો"</string>
+    <string name="hms_update" priority="translator">"અપડેટ કરો"</string>
+    <string name="hms_update_continue" priority="LT">"ડાઉનલોડ કરો"</string>
+    <string name="hms_update_message" priority="translator">"આ સુવિધાનો ઉપયોગ કરવા માટે HMS Core અદ્યતન સંસ્કરણ પર અપડેટ કરો. અત્યારે અપડેટ કરવું છે?"</string>
+    <string name="hms_update_message_new" priority="translator">"આ સેવાને નીચેની એપના લેટેસ્ટ સંસ્કરણ ની જરૂર છે:\n\n%1$s"</string>
+    <string name="hms_update_nettype" priority="LT">"કોઇ Wi-Fi કનેક્શન નથી. મોબાઇલ ડેટાના ઉપયોગથી ડાઉનલોડ કરવું છે?"</string>
+    <string name="hms_update_title" priority="translator">"HMS Core"</string>
+    <string name="ml_pvs_load_error" priority="translator">"લોડ કરવામાં નિષ્ફળ"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"કોઈ ઇન્ટરનેટ કનેક્શન નથી"</string>
+    <string name="ml_pvs_net_set" priority="translator">"નેટવર્ક સેટિંગ્સ"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"સંગ્રહ અથવા કૅમેરા પરવાનગીની મંજૂરી આપવામાં આવી નથી."</string>
+    <string name="ml_pvs_service_error" priority="translator">"સર્વર સાથે કનેક્ટ કરવામાં અસમર્થ"</string>
+    <string name="mlkit_asr_machine_learning_kit" priority="translator">"ML Kit દ્વારા સંચાલિત"</string>
+    <string name="mlkit_bcr_all_media" priority="translator">"તમામ ફોટા"</string>
+    <string name="mlkit_bcr_card_back_tips" priority="translator">"કાર્ડની ઊલટી બાજુને ફ્રેમ સાથે લાઇન અપ કરો"</string>
+    <string name="mlkit_bcr_card_front_tips" priority="translator">"કાર્ડની સામેની બાજુને ફ્રેમ સાથે લાઇન અપ કરો"</string>
+    <string name="mlkit_bcr_permission_tip" priority="translator">"સંગ્રહ અથવા કૅમેરાને ઍક્સેસ કરવાની અનુમતિ નથી."</string>
+    <string name="mlkit_bcr_scan_failure" priority="translator">"કાર્ડ સામગ્રી વાંચવામાં અસમર્થ."</string>
+    <string name="mlkit_bcr_scanner_image" priority="translator">"સ્કેન થઈ રહ્યું છે..."</string>
+    <string name="mlkit_bcr_take_photo" priority="translator">"ફોટો લો"</string>
+    <string name="mlkit_bcr_tap_continue" priority="translator">"સ્કૅનિંગ ફરી શરૂ કરવા માટે ટચ કરો"</string>
+    <string name="mlkit_bcr_this_month" priority="translator">"આ મહિને"</string>
+    <string name="mlkit_bcr_this_week" priority="translator">"આ અઠવાડિયે"</string>
+    <string name="mlkit_bcr_today" priority="translator">"આજે"</string>
+    <string name="mlkit_bcr_turn_on_light" priority="translator">"વધુ પ્રકાશ માટે ટચ કરો"</string>
+    <string name="mlkit_liveness_detect_backIcon" priority="translator">"પાછળ જાઓ"</string>
+    <string name="mlkit_liveness_detect_dialogtips" priority="translator">"આ સુવિધા વિભાજીત-સ્ક્રીન મોડમાં ઉપલબ્ધ નથી. કૃપા કરી પૂર્ણ સ્ક્રીન પર સ્વિચ કરો."</string>
+    <string name="mlkit_liveness_detect_dialogtipsnext" priority="translator">"ઑકે"</string>
+    <string name="mlkit_liveness_detect_identifying" priority="translator">"ઓળખી રહ્યું છે…"</string>
+    <string name="mlkit_liveness_detect_name" priority="LT">ચહેરાની શોધ</string>
+    <string name="mlkit_liveness_detect_noface_is_detected" priority="translator">"કોઈ ચહેરો શોધાયો નથી"</string>
+    <string name="mlkit_liveness_detect_tips" priority="translator">તમારા ચહેરાને ફ્રેમની અંદર સ્થિત કરો. ખાતરી કરી લો કે તમે સારી રીતે પ્રકાશિત વાતાવરણમાં છો કે નહીં.</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"શોધો"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="upsdk_app_dl_installing" priority="translator">"AppGallery ડાઉનલોડ કરી રહ્યું છે"</string>
+    <string name="upsdk_app_download_info_new" priority="translator">"ઇન્સ્ટોલ કરો"</string>
+    <string name="upsdk_app_download_installing" priority="translator">"%s ડાઉનલોડ થઇ રહ્યું છે…"</string>
+    <string name="upsdk_app_size" priority="translator">"કદ"</string>
+    <string name="upsdk_app_version" priority="translator">"સંસ્કરણ"</string>
+    <string name="upsdk_appstore_install" priority="translator">"આ એપ્લિકેશન અપડેટ કરવા માટે %sની જરૂર પડે છે. હમણાં ઇન્સ્ટોલ કરીએ?"</string>
+    <string name="upsdk_cancel" priority="translator">"રદ કરો"</string>
+    <string name="upsdk_checking_update_prompt" priority="LT">"અપડેટ માટે તપાસી રહ્યું છે..."</string>
+    <string name="upsdk_choice_update" priority="translator">"અપડેટ ઉપલબ્ધ. કૃપા કરીને નવું સંસ્કરણ ડાઉનલોડ કરીને ઇન્સ્ટોલ કરો."</string>
+    <string name="upsdk_connect_server_fail_prompt_toast" priority="translator">"સર્વર સાથે કનેક્ટ કરવામાં અસમર્થ. કૃપા કરી પછી ફરી પ્રયત્ન કરો."</string>
+    <string name="upsdk_detail" priority="translator">"વિગતો"</string>
+    <string name="upsdk_getting_message_fail_prompt_toast" priority="translator">"માહિતી પુનઃપ્રાપ્ત કરવામાં અસમર્થ. કૃપા કરી પછી ફરી પ્રયત્ન કરો."</string>
+    <string name="upsdk_no_available_network_prompt_toast" priority="translator">"કોઈ ઇન્ટરનેટ કનેક્શન નથી. કૃપા કરી તમારા નેટવર્ક સેટિંગ્સ તપાસો."</string>
+    <string name="upsdk_ota_app_name" priority="translator">"એપ"</string>
+    <string name="upsdk_ota_cancel" priority="translator">"પછી"</string>
+    <string name="upsdk_ota_force_cancel_new" priority="translator">"બહાર નીકળો"</string>
+    <string name="upsdk_ota_notify_updatebtn" priority="translator">"અપડેટ કરો"</string>
+    <string name="upsdk_ota_title" priority="translator">"નવું સંસ્કરણ"</string>
+    <string name="upsdk_storage_utils" priority="LT">"%1$s MB"</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex" priority="translator">"શું ઇન્સ્ટોલેશન રદ કરીએ?"</string>
+    <string name="upsdk_third_app_dl_install_failed" priority="translator">"ઇન્સ્ટોલેશન નિષ્ફળ."</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download" priority="translator">"હા"</string>
+    <string name="upsdk_update_check_no_new_version" priority="Reviewed">"તમારું સંસ્કરણ અપ ટુ ડેટ છે."</string>
+</resources>

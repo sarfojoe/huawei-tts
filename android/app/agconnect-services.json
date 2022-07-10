@@ -1,0 +1,57 @@
+{
+	"agcgw_all": {
+		"CN": "connect-drcn.dbankcloud.cn",
+		"CN_back": "connect-drcn.hispace.hicloud.com",
+		"DE": "connect-dre.dbankcloud.cn",
+		"DE_back": "connect-dre.hispace.hicloud.com",
+		"RU": "connect-drru.hispace.dbankcloud.ru",
+		"RU_back": "connect-drru.hispace.dbankcloud.cn",
+		"SG": "connect-dra.dbankcloud.cn",
+		"SG_back": "connect-dra.hispace.hicloud.com"
+	},
+	"websocketgw_all": {
+		"CN": "connect-ws-drcn.hispace.dbankcloud.cn",
+		"CN_back": "connect-ws-drcn.hispace.dbankcloud.com",
+		"DE": "connect-ws-dre.hispace.dbankcloud.cn",
+		"DE_back": "connect-ws-dre.hispace.dbankcloud.com",
+		"RU": "connect-ws-drru.hispace.dbankcloud.ru",
+		"RU_back": "connect-ws-drru.hispace.dbankcloud.cn",
+		"SG": "connect-ws-dra.hispace.dbankcloud.cn",
+		"SG_back": "connect-ws-dra.hispace.dbankcloud.com"
+	},
+	"client": {
+		"cp_id": "10358000023776569",
+		"product_id": "99536292102461161",
+		"client_id": "931257574802607360",
+		"client_secret": "E6A914D500B31BAC975FB04963076778338B3820D8E1EF7060A37FB148040B0E",
+		"project_id": "99536292102461161",
+		"app_id": "106644195",
+		"api_key": "DAEDAGPFKkyesNoSuOPjSbhBvvSlKqlAvuzpyuQodVLYfmaMZWDD/wcRqLjMoq1Nx1KQSmD6MhlxvuUjEsaAMQcUrnl2OrOEoP4yaQ==",
+		"package_name": "ttstestsarfojoe.huawei"
+	},
+	"oauth_client": {
+		"client_id": "106644195",
+		"client_type": 1
+	},
+	"app_info": {
+		"app_id": "106644195",
+		"package_name": "ttstestsarfojoe.huawei"
+	},
+	"configuration_version": "3.0",
+	"appInfos": [
+		{
+			"package_name": "ttstestsarfojoe.huawei",
+			"client": {
+				"app_id": "106644195"
+			},
+			"app_info": {
+				"package_name": "ttstestsarfojoe.huawei",
+				"app_id": "106644195"
+			},
+			"oauth_client": {
+				"client_type": 1,
+				"client_id": "106644195"
+			}
+		}
+	]
+}

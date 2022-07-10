@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="state_listening">
+        <item priority="translator">"Слушање…"</item>
+    </string-array>
+    <string-array name="state_nonetwork">
+        <item priority="translator">"Нема интернет везе"</item>
+        <item priority="translator">"Интернет веза ниског нивоа"</item>
+        <item priority="translator">"Проверите мрежу"</item>
+        <item priority="translator">"Проверите мрежна подешавања"</item>
+    </string-array>
+    <string-array name="state_nosound">
+        <item priority="translator">"Реците нешто"</item>
+        <item priority="translator">"Нисам чуо/-ла. Покушајте поново."</item>
+        <item priority="translator">"Мало се приближите и покушате поново"</item>
+        <item priority="translator">"Говорите у микрофон"</item>
+    </string-array>
+    <string-array name="state_nounderstand">
+        <item priority="translator">"Извините, нисам најбоље разумео/-ла"</item>
+        <item priority="translator">"Извините, нисам чуо/-ла"</item>
+        <item priority="translator">"Нисам најбоље чуо/-ла"</item>
+        <item priority="translator">"Извините, не разумем"</item>
+    </string-array>
+    <string-array name="state_service_unavailable">
+        <item priority="translator">"Услуга није доступна"</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Идите на почетну"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Идите нагоре"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Још опција"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Прикажи све"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Изаберите апликацију"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ИСКЉУЧЕНО"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УКЉУЧЕНО"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"тастер за размак"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Претражите…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Обришите упит"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Претражите упит"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Претражите"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Пошаљите упит"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Гласовна претрага"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Делите помоћу"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Делите помоћу апликације <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Скупи"</string>
+    <string name="ml_pvs_load_error" priority="translator">"Учитавање није успело"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"Нема интернет везе"</string>
+    <string name="ml_pvs_net_set" priority="translator">"Мрежна подешавања"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"Дозвола за опцију Складиште или Камера није одобрена."</string>
+    <string name="ml_pvs_service_error" priority="translator">"Повезивање на сервер није могуће"</string>
+    <string name="mlkit_asr_machine_learning_kit" priority="translator">"Обезбеђује ML Кит"</string>
+    <string name="mlkit_bcr_all_media" priority="translator">"Све фотографије"</string>
+    <string name="mlkit_bcr_card_back_tips" priority="translator">"Поравнајте задњу страну картице са оквиром"</string>
+    <string name="mlkit_bcr_card_front_tips" priority="translator">"Поравнајте предњу страну картице са оквиром"</string>
+    <string name="mlkit_bcr_permission_tip" priority="translator">"Приступ складишту или камери није дозвољен."</string>
+    <string name="mlkit_bcr_scan_failure" priority="translator">"Читање садржаја картице није могуће."</string>
+    <string name="mlkit_bcr_scanner_image" priority="translator">"Скенирање…"</string>
+    <string name="mlkit_bcr_take_photo" priority="translator">"Фотографиши"</string>
+    <string name="mlkit_bcr_tap_continue" priority="translator">"Додирните да бисте наставили скенирање"</string>
+    <string name="mlkit_bcr_this_month" priority="translator">"Овог месеца"</string>
+    <string name="mlkit_bcr_this_week" priority="translator">"Ове недеље"</string>
+    <string name="mlkit_bcr_today" priority="translator">"Данас"</string>
+    <string name="mlkit_bcr_turn_on_light" priority="translator">"Додирните за више светла"</string>
+    <string name="mlkit_liveness_detect_name" priority="translator">"Детекција лица"</string>
+    <string name="mlkit_liveness_detect_tips" priority="translator">"Поставите лице унутар оквира. Побрините се да се налазите у добро осветљеном окружењу."</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Претражите"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

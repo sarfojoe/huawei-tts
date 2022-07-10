@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ml_pvs_load_error" priority="translator">"လုပ်ဆောင်ရန် မအောင်မြင်ခဲ့ပါ"</string>
+    <string name="ml_pvs_net_disconnected" priority="translator">"အင်တာနက် ချိတ်ဆက်မှု မရှိပါ"</string>
+    <string name="ml_pvs_net_set" priority="translator">"ကွန်ရက် ဆက်တင်များ"</string>
+    <string name="ml_pvs_permission_tip" priority="translator">"သိုလှောင်မှု သို့မဟုတ် ကင်မရာ ခွင့်ပြုချက်ကို ခွင့်မပြုထားပါ။"</string>
+    <string name="ml_pvs_service_error" priority="translator">"ဆာဗာနှင့် ချိတ်ဆက်၍ မရနိုင်ပါ"</string>
+</resources>

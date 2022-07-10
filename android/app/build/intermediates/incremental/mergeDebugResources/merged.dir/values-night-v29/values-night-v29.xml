@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialogcolor">#FF3C3C3C</color>
+    <color name="dialogcolorblue">#FF006CDE</color>
+    <color name="emui_color_gray_1">#262626</color>
+    <color name="emui_color_gray_10">#E6E6E6</color>
+    <color name="emui_color_gray_7">#808080</color>
+    <color name="statecolor">#000000</color>
+    <color name="textcolor">#FFFFFFFF</color>
+    <color name="texttipcolor">#E6FFFFFF</color>
+    <color name="upsdk_color_gray_1">#262626</color>
+    <color name="upsdk_color_gray_10">#E6E6E6</color>
+    <color name="upsdk_color_gray_7">#808080</color>
+    <color name="whitebg">#000000</color>
+</resources>
